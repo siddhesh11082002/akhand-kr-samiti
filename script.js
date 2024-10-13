@@ -54,12 +54,12 @@ function changeBackgroundImage() {
 // Change image every 4 seconds
 setInterval(changeBackgroundImage, 4000);
 
-// Donation Button
-const donationButton = document.querySelector('.donation-button');
-donationButton.addEventListener('click', function (event) {
-    event.preventDefault();
-    window.open('https://docs.google.com/forms/d/e1FAIpQLSfmQHHjx6Icw0Qja1aa4zBmD9UIYDTmEm9H0cYzBz6VFkFnRA/viewform?usp=sf_link', '_blank'); 
-});
+// // Donation Button
+// const donationButton = document.querySelector('.donation-button');
+// donationButton.addEventListener('click', function (event) {
+//     event.preventDefault();
+//     window.open('https://docs.google.com/forms/d/e1FAIpQLSfmQHHjx6Icw0Qja1aa4zBmD9UIYDTmEm9H0cYzBz6VFkFnRA/viewform?usp=sf_link', '_blank'); 
+// });
 
 
   // Email Button
@@ -130,46 +130,12 @@ All concerned Members of Legislative Assembly and Council`;
 
 /*gallery section */
 
-    const galleryGrid = document.getElementById('gallery-grid');
+    
     const newsGrid = document.getElementById('news-grid');
     
-    const galleryFolder = 'images/gallery/';
-    const galleryImages = [];
-    for (let i = 1; i <= 30; i++) {
-        galleryImages.push(`FB_${i}.jpg`);
-    }
-
-    galleryImages.forEach(image => {
-        const imgElement = document.createElement('a');
-        imgElement.href = `${galleryFolder}${image}`;
-        imgElement.className = 'gallery-item';
-        
-        const imageTag = document.createElement('img');
-        imageTag.src = `${galleryFolder}${image}`;
-        imageTag.alt = 'Gallery Image';
-        imageTag.className = 'gallery-image';
-
-        // Error handling for image loading
-        imageTag.onerror = function() {
-            this.src = 'images/placeholder.jpg'; // Fallback image
-            this.alt = 'Image not available'; // Fallback alt text
-        };
-
-        imgElement.appendChild(imageTag);
-        galleryGrid.appendChild(imgElement);
-    });
-
-    // Initialize Magnific Popup for gallery
-    $('.gallery-item').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
     const newsFolder = 'images/news/';
     const newsImages = [];
-    for (let i = 1; i <= 30; i++) {
+    for (let i = 1; i <= 10; i++) {
         newsImages.push(`NW_${i}.jpg`);
     }
 
