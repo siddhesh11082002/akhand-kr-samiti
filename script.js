@@ -69,9 +69,24 @@ emailbutton.addEventListener('click', function (event) {
     console.log("email section")
 
     var recipients = "officeofmr@gov.in,av.odisha@sansad.nic.in,ashwini.vaishnav@gmail.com,osdmr@rb.railnet.gov.in,edpgmr@rb.railnet.gov.in,mr@rb.railnet.gov.in";
-    var cc = " office.mosrs@gov.in,aneesh.hegde@gov.in,mosr@rb.railnet.gov.in,crb@rb.railnet.gov.in,sanjay.sehgal@gov.in,edcc@rb.railnet.gov.in,edpsu@rb.railnet.gov.in,dpsu@rb.railnet.gov.in,chiefminister@maharashtra.gov.in,CM@maharashtra.gov.in,dcm@maharashtra.gov.in,sunil.tatkare55@sansad.nic.in,sunilrane2013@gmail.com,narayan.rane@gov.in,narayan.rane@sansad.nic.in,narayanrane52@gmail.com,shripad.naik52@gov.in,shripad.naik@sansad.nic.in,shrinivaspoojari53@gmail.com,captain.brijesh@sansad.nic.in,aniket.tat@gmail.com,manishakayande@rediffmaill.com,neeilamgorhe@gmail.com,asmita.jagruti@gmail.com,uddhavthackeray@gmail.com,anildattatray@gmail.com,vilaspotnis99@gmail.com,misunilshinde@gmail.com,BHAIGIRKAR16@gmail.com,niranjandavkhare@gmail.com,pydmlaoffice@gmail.com,kolimahasangh@yahoo.com,dnyaneshwar.mhatre68@gmail.com,kapilpatil@gmail.com,jayantpwp@gmail.com,Yogesh_kadam1986@outlook.com,mlamaheshchoughule@gmail.com,bjpofficemalad@yahoo.com,speakerrsn1@gmail.com,ravishethpatil158@gmail.com,officeofmlaatul@gmail.com,mandataimhatre@gmail.com,nnr23682@gmail.com,bharatilavekar@gmail.com,parag@maninfra.com,ashish.shelar@yahoo.com,yogesh_Sagar09@yahoo.in.com,ameetsatam@yahoo.com,captainr.tamilselvan@gmail.com,jsa707@gmail.com,aadtti7@yahoo.co.in,sbhusara41@gmail.com,nawabmalikmla@gmail.com,gaikwad.varsha3@gmail.com,aminpatel186@gmail.com,abuasimazmi@hotmail.com,raissp132@gmail.com,mla@rajupatilmns.com,geetajainoffice@gmail.com,secy1-mls@mah.gov.in,shekhargnikam@gmail.com,sandipanbhumare@gmail.com,sandipanbhumare.mp@sansad.nic.in,sc.barne@sansad.nic.in,appabarne@gmail.com,nageshpatil4545@gmail.com,patil.nagesh@sansad.nic.in,udayanrajebhonsle@gmail.com,udayanraje.bhonsle@sansad.nic.in,shahuchhatrapatikop@gmail.com,shahu.chhatrapatikol@sansad.nic.in,anil.desai@sansad.nic.in,nitin.gadkari@nic.in,piyush.goyal@gov.in,prataprao.jadhav@sansad.nic.in,jadhavprataprao25@gmail.com,nr.khadase@sansad.nic.in,rakshataikhadse@gmail.com,dramolkolhe80@gmail.com,amol.kolhe@sansad.nic.in,sureshmhatre1701@gmail.com,murlidhar.mohol@gmail.com,sanjaydinapatil@gmail.com,narayan.rane@sansad.nic.in,hemantsavara@yahoo.co.in,arvind.sawant@sansad.nic.in,officeofdrshrikantshinde.delhi@gmail.com,supriyassule@gmail.com,smita.udaywagh@sansad.nic.in,waikarravindra@gmail.com,dranil.bonde@sansad.nic.in,priyanka.c19@sansad.nic.in,ashokchavan.009@sansad.nic.in,mpmilind.deora@sansad.nic.in,cdhandore.mp@sansad.nic.in,bhagwat.karad@sansad.nic.in,mp.medha@sansad.nic.in,dhananjaymahadik.mp@sansad.nic.in,praful@sansad.nic.in,dhairyashil.mprs@sansad.nic.in,pawars@sansad.nic.in,s.raut@sansad.nic.in , chai2kul@gmail.com";
+    var cc = " office.mosrs@gov.in,aneesh.hegde@gov.in,mosr@rb.railnet.gov.in,crb@rb.railnet.gov.in,sanjay.sehgal@gov.in,edcc@rb.railnet.gov.in,edpsu@rb.railnet.gov.in,dpsu@rb.railnet.gov.in,chiefminister@maharashtra.gov.in,CM@maharashtra.gov.in,dcm@maharashtra.gov.in,sunil.tatkare55@sansad.nic.in,sunilrane2013@gmail.com,narayan.rane@gov.in,narayan.rane@sansad.nic.in,narayanrane52@gmail.com,shripad.naik52@gov.in,shripad.naik@sansad.nic.in,shrinivaspoojari53@gmail.com,captain.brijesh@sansad.nic.in,aniket.tat@gmail.com,manishakayande@rediffmaill.com,neeilamgorhe@gmail.com,asmita.jagruti@gmail.com,uddhavthackeray@gmail.com,anildattatray@gmail.com,vilaspotnis99@gmail.com,misunilshinde@gmail.com,BHAIGIRKAR16@gmail.com,niranjandavkhare@gmail.com,pydmlaoffice@gmail.com,kolimahasangh@yahoo.com,dnyaneshwar.mhatre68@gmail.com,kapilpatil@gmail.com,jayantpwp@gmail.com,Yogesh_kadam1986@outlook.com,mlamaheshchoughule@gmail.com,bjpofficemalad@yahoo.com,speakerrsn1@gmail.com,ravishethpatil158@gmail.com,officeofmlaatul@gmail.com,mandataimhatre@gmail.com,nnr23682@gmail.com,bharatilavekar@gmail.com,parag@maninfra.com,ashish.shelar@yahoo.com,ameetsatam@yahoo.com,captainr.tamilselvan@gmail.com,jsa707@gmail.com,aadtti7@yahoo.co.in,sbhusara41@gmail.com,nawabmalikmla@gmail.com,gaikwad.varsha3@gmail.com,aminpatel186@gmail.com,abuasimazmi@hotmail.com,raissp132@gmail.com,mla@rajupatilmns.com,geetajainoffice@gmail.com,secy1-mls@mah.gov.in,shekhargnikam@gmail.com,sandipanbhumare@gmail.com,sandipanbhumare.mp@sansad.nic.in,sc.barne@sansad.nic.in,appabarne@gmail.com,nageshpatil4545@gmail.com,patil.nagesh@sansad.nic.in,udayanrajebhonsle@gmail.com,udayanraje.bhonsle@sansad.nic.in,shahuchhatrapatikop@gmail.com,shahu.chhatrapatikol@sansad.nic.in,anil.desai@sansad.nic.in,nitin.gadkari@nic.in,piyush.goyal@gov.in,prataprao.jadhav@sansad.nic.in,jadhavprataprao25@gmail.com,nr.khadase@sansad.nic.in,rakshataikhadse@gmail.com,dramolkolhe80@gmail.com,amol.kolhe@sansad.nic.in,sureshmhatre1701@gmail.com,murlidhar.mohol@gmail.com,sanjaydinapatil@gmail.com,narayan.rane@sansad.nic.in,hemantsavara@yahoo.co.in,arvind.sawant@sansad.nic.in,officeofdrshrikantshinde.delhi@gmail.com,supriyassule@gmail.com,smita.udaywagh@sansad.nic.in,waikarravindra@gmail.com,dranil.bonde@sansad.nic.in,priyanka.c19@sansad.nic.in,ashokchavan.009@sansad.nic.in,mpmilind.deora@sansad.nic.in,cdhandore.mp@sansad.nic.in,bhagwat.karad@sansad.nic.in,mp.medha@sansad.nic.in,dhananjaymahadik.mp@sansad.nic.in,praful@sansad.nic.in,dhairyashil.mprs@sansad.nic.in,pawars@sansad.nic.in,s.raut@sansad.nic.in , chai2kul@gmail.com";
     var bcc = "akhandkokanpravasiseva@gmail.com , swaditerminus@gmail.com ";
-    var subject = "Merger of Konkan Railway in Indian Railways by integrating Ratnagiri Region with Central Railway and Karwar Region with South Western Railway";
+    var subjects = [
+        "Urgent Request for Merger of Konkan Railway with Central and South Western Railways",
+        "Proposal for Merger of Konkan Railway with Indian Railways by Integrating Central and South Western Zones",
+        "Merger of Konkan Railway into Central and South Western Railway Zones for Enhanced Efficiency",
+        "Appeal for the Merger of Konkan Railway with Central Railway and South Western Railway",
+        "Strategic Merger of Konkan Railway with Central Railway and South Western Railway for Better Passenger Services",
+        "Proposal for Immediate Merger of Konkan Railway with Central and South Western Railways",
+        "Request for Merger of Konkan Railway into Central and South Western Railways for Operational and Financial Benefits",
+        "Urgent Request for Integration of Konkan Railway with Central and South Western Railway Zones",
+        "Integration of Konkan Railway’s Roha-Madure Section with Central Railway and Karwar Region with South Western Railway",
+        "Appeal for the Strategic Merger of Konkan Railway with Indian Railways to Streamline Operations",
+        "Merging Konkan Railway with Indian Railways: A Step Toward Financial Stability and Operational Efficiency",
+        "Urging Merger of Konkan Railway with Indian Railways for Long-Term Passenger and Infrastructure Benefits"
+    ];
+    var subject = subjects[Math.floor(Math.random() * subjects.length)];
+    
     var body = `To,
 Hon. Shri Ashwini Vaishnav ji,
 Cabinet Minister,Railways
@@ -171,39 +186,26 @@ All concerned Members of Legislative Assembly and Council`;
 // representive grid 
 
 const representatives = [
-    { name: "ॲड. संदीप निंबाळकर", position: "अध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. सागर तळवडेकर", position: "उपाध्यक्ष , सोशल मिडिया हेड", image: "images/representative/representative.png" },
-    { name: "श्री. सागर नाणोसकर", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री.विनायक गांवस", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. सिद्धेश सावंत", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "अॅड. श्री. नंदन वेंगुर्लेकर", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "अॅड. श्री. नकुल पार्सेकर", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. जगदीश मांजरेकर", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. रविंद्र ओगले", position: "खजिनदार", image: "images/representative/representative.png" },
-    { name: "श्री. विहंग गोठोस्कर", position: "सहखजिनदार", image: "images/representative/representative.png" },
-    { name: "मिहिर मठकर", position: "सचिव", image: "images/representative/representative.png" },
-    { name: "अॅड. सी. सापली दुभाषी", position: "सहसचिव", image: "images/representative/representative.png" },
-    { name: "श्री. भुषण बांदिवडेकर", position: "तालुका / ग्राम संपर्क , सोशल मिडिया हेड", image: "images/representative/representative.png" },
-    { name: "सी. अर्चना घारे-परब", position: "महिला संघटना अध्यक्षा", image: "images/representative/representative.png" },
-    { name: "श्री. बवन साळगावकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. भाई देऊलकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. अभिमन्यू लोंढे", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. रविंद्र बोंद्रे", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. समिर वंजारी", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. महेश परूळेकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. रफिक मेमन", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. बाळासाहेब बोर्डेकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. शेखर पाडगांवकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. पुंडलिक दळवी", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. सुभाष शिरसाट", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. हिदायतुल्ला खान", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. बाबल वाडकर", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. देव्या सुर्याजी", position: "सल्लागार", image: "images/representative/representative.png" },
-    { name: "श्री. अमोल टेंबकर", position: "प्रेस मिडिया हेड", image: "images/representative/representative.png" },
-    { name: "श्री. समिर घोंगे", position: "सोशल मिडिया हेड", image: "images/representative/representative.png" },
-    { name: "श्री. चंद्रकांत बांदेकर", position: "शिष्टमंडळ अध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. तेजस पोयेकर", position: "शिष्टमंडळ उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "श्री. केशव नाईक", position: "शिष्टमंडळ उपाध्यक्ष", image: "images/representative/representative.png" }
+    { name: "शांताराम नाईक", position: "अध्यक्ष", image: "images/representative/representative.png" },
+    { name: "दीपक चव्हाण", position: "कार्याध्यक्ष", image: "images/representative/representative.png" },
+    { name: "राजू कांबळे", position: "प्रमुख", image: "images/representative/representative.png" },
+    { name: "तानाजी परब", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
+    { name: "योगिता सावंत", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
+    { name: "अक्षय महापदी", position: "सचिव", image: "images/representative/representative.png" },
+    { name: "दर्शन कासले", position: "सचिव", image: "images/representative/representative.png" },
+    { name: "राजाराम कुंडेकर", position: "कोषाध्यक्ष", image: "images/representative/representative.png" },
+    { name: "मिहीर मठकर", position: "कोषाध्यक्ष", image: "images/representative/representative.png" },
+    { name: "नितीन जाधव", position: "उप कोषाध्यक्ष", image: "images/representative/representative.png" },
+    { name: "मनिष दाभोळकर", position: "अ. हिशेब तपासनीस", image: "images/representative/representative.png" },
+    { name: "सुनिल उतेकर", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "श्रीकांत सावंत", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "सुरेंद्र नेमळेकर", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "परेश गुरव", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "प्रमोद सावंत", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "संदेश जिमन", position: "सल्लागार", image: "images/representative/representative.png" },
+    { name: "सागर तळवडेकर", position: "संपर्क प्रमुख", image: "images/representative/representative.png" },
+    { name: "अभिषेक शिंदे", position: "सह संपर्कप्रमुख", image: "images/representative/representative.png" },
+    { name: "अभिजीत धुरत", position: "विशेष मार्गदर्शक", image: "images/representative/representative.png" }
 ];
 
 const representativeGrid = document.querySelector('.representative-grid');

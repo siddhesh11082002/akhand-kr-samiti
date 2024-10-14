@@ -1,17 +1,17 @@
 :root {
     --primary-bg: #ffffff;      /* White for primary backgrounds (clean and minimal) */
     --primary-text: #333333;    /* Dark Gray for text (easy on the eyes, high contrast on white) */
-    --accent-color: #a92628;    /* Vivid Red for accents, buttons, and calls to action */
+    --accent-color: #e35356;    /* Vivid Red for accents, buttons, and calls to action */
     --secondary-bg: #f5f5f5;    /* Light Gray for subtle background areas and sections */
-    --link-color: #aa538a;      /* Muted Purple for links and interactive elements */
+    --link-color: #8953aa;      /* Muted Purple for links and interactive elements */
     --highlight-color: #ffdd57; /* Soft Yellow for subtle highlights or focus elements */
     --border-color: #e0e0e0;    /* Light Gray for borders, dividers, and subtle separations */
     --hover-bg: #ed5565;        /* Slightly darker red for hover effects */
-    --hover-link: #804b72;      /* Darker version of link color for hover */ 
+    --hover-link: #724b80;      /* Darker version of link color for hover */ 
 }
 
 /* Global Styles */
-body {
+body {   
   font-family: 'Tiro Devanagari Marathi', serif;
   color: var(--primary-text);
   margin: 0;
@@ -355,6 +355,12 @@ body {
   font-size: 20px;
   margin-bottom: 10px;
   color: var(--link-color); /* Muted Purple for card titles */
+}
+.representative-card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--primary-text); 
 }
 
 .representative-image {
