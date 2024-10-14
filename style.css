@@ -32,7 +32,6 @@ body {
   padding: 10px 10px;
   box-sizing: border-box;
   height: 60px; /* Set height of the navbar */
-  
   align-items: center; /* Center items vertically within the navbar */
   position: fixed; /* Fix the navbar at the top */
   width: 100%; /* Ensure the navbar spans the full width */
@@ -191,12 +190,12 @@ body {
 
 @media (min-width: 768px) {
   .hero-content h1 {
-    font-size: 3.75rem;
+    font-size: 4.75rem;
   }
 }
 
 .hero-content h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 1rem;
   padding-left: 1rem;
@@ -245,6 +244,16 @@ body {
   text-align: justify;
 }
 
+
+@media (max-width: 600px) {
+  .about-section h2 {
+    font-size: 1.25em;
+  }
+
+  .about-section p {
+    font-size: 0.9em;
+  }
+}
 /* Email Section Styles */
 .email-section {
   background-color: var(--primary-bg); /* White background */
