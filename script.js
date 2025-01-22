@@ -67,66 +67,43 @@ setInterval(changeBackgroundImage, 4000);
 emailbutton.addEventListener('click', function (event) {
 
     console.log("email section")
-
-    var recipients = "officeofmr@gov.in,av.odisha@sansad.nic.in,ashwini.vaishnav@gmail.com,osdmr@rb.railnet.gov.in,edpgmr@rb.railnet.gov.in,mr@rb.railnet.gov.in";
-    var cc = " office.mosrs@gov.in,aneesh.hegde@gov.in,mosr@rb.railnet.gov.in,crb@rb.railnet.gov.in,sanjay.sehgal@gov.in,edcc@rb.railnet.gov.in,edpsu@rb.railnet.gov.in,dpsu@rb.railnet.gov.in,chiefminister@maharashtra.gov.in,CM@maharashtra.gov.in,dcm@maharashtra.gov.in,sunil.tatkare55@sansad.nic.in,sunilrane2013@gmail.com,narayan.rane@gov.in,narayan.rane@sansad.nic.in,narayanrane52@gmail.com,shripad.naik52@gov.in,shripad.naik@sansad.nic.in,shrinivaspoojari53@gmail.com,captain.brijesh@sansad.nic.in,aniket.tat@gmail.com,manishakayande@rediffmaill.com,neeilamgorhe@gmail.com,asmita.jagruti@gmail.com,uddhavthackeray@gmail.com,anildattatray@gmail.com,vilaspotnis99@gmail.com,misunilshinde@gmail.com,BHAIGIRKAR16@gmail.com,niranjandavkhare@gmail.com,pydmlaoffice@gmail.com,kolimahasangh@yahoo.com,dnyaneshwar.mhatre68@gmail.com,kapilpatil@gmail.com,jayantpwp@gmail.com,Yogesh_kadam1986@outlook.com,mlamaheshchoughule@gmail.com,bjpofficemalad@yahoo.com,speakerrsn1@gmail.com,ravishethpatil158@gmail.com,officeofmlaatul@gmail.com,mandataimhatre@gmail.com,nnr23682@gmail.com,bharatilavekar@gmail.com,parag@maninfra.com,ashish.shelar@yahoo.com,ameetsatam@yahoo.com,captainr.tamilselvan@gmail.com,jsa707@gmail.com,sbhusara41@gmail.com,nawabmalikmla@gmail.com,gaikwad.varsha3@gmail.com,aminpatel186@gmail.com,abuasimazmi@hotmail.com,raissp132@gmail.com,mla@rajupatilmns.com,geetajainoffice@gmail.com,secy1-mls@mah.gov.in,shekhargnikam@gmail.com,sandipanbhumare@gmail.com,sandipanbhumare.mp@sansad.nic.in,sc.barne@sansad.nic.in,appabarne@gmail.com,nageshpatil4545@gmail.com,patil.nagesh@sansad.nic.in,udayanrajebhonsle@gmail.com,udayanraje.bhonsle@sansad.nic.in,shahuchhatrapatikop@gmail.com,shahu.chhatrapatikol@sansad.nic.in,anil.desai@sansad.nic.in,nitin.gadkari@nic.in,piyush.goyal@gov.in,prataprao.jadhav@sansad.nic.in,jadhavprataprao25@gmail.com,nr.khadase@sansad.nic.in,rakshataikhadse@gmail.com,dramolkolhe80@gmail.com,amol.kolhe@sansad.nic.in,sureshmhatre1701@gmail.com,murlidhar.mohol@gmail.com,sanjaydinapatil@gmail.com,narayan.rane@sansad.nic.in,hemantsavara@yahoo.co.in,arvind.sawant@sansad.nic.in,officeofdrshrikantshinde.delhi@gmail.com,supriyassule@gmail.com,smita.udaywagh@sansad.nic.in,waikarravindra@gmail.com,dranil.bonde@sansad.nic.in,priyanka.c19@sansad.nic.in,ashokchavan.009@sansad.nic.in,mpmilind.deora@sansad.nic.in,cdhandore.mp@sansad.nic.in,bhagwat.karad@sansad.nic.in,mp.medha@sansad.nic.in,dhananjaymahadik.mp@sansad.nic.in,praful@sansad.nic.in,dhairyashil.mprs@sansad.nic.in,pawars@sansad.nic.in,s.raut@sansad.nic.in , chai2kul@gmail.com, ​gm@cr.railnet.gov.in,agm@cr.railnet.gov.in,sdgm@cr.railnet.gov.in,​drm@bb.railnet.gov.in,gm@swr.railnet.gov.in,cpro@swr.railnet.gov.in,drm@ubl.railnet.gov.in,drm@sbc.railnet.gov.in,drm@mys.railnet.gov.in,drm@bsl.railnet.gov.in,drm@ngp.railnet.gov.in,drm@sur.railnet.gov.in,​drm@pa.railnet.gov.in,ecgm@cr.railnet.gov.in,dgm@cr.railnet.gov.in,secygm@swr.railnet.gov.in,dgm@swr.railnet.gov.in,";
-    var bcc = "akhandkokanpravasiseva@gmail.com , swaditerminus@gmail.com ";
-    var subjects = [
-        "Urgent Call for the Merger of Konkan Railway with Central and South Western Railways",
-        "Proposal to Merge Konkan Railway into Indian Railways by Unifying Central and South Western Zones",
-        "Combining Konkan Railway with Central and South Western Railway Zones to Boost Efficiency",
-        "Plea for the Integration of Konkan Railway with Central Railway and South Western Railway",
-        "Strategic Integration of Konkan Railway with Central and South Western Railways to Improve Passenger Services",
-        "Proposal for the Prompt Merger of Konkan Railway with Central and South Western Railways",
-        "Request to Merge Konkan Railway into Central and South Western Railways for Enhanced Operations and Financial Gains",
-        "Urgent Plea for the Merger of Konkan Railway with Central and South Western Railway Zones",
-        "Integration of Konkan Railway’s Roha-Madure Stretch with Central Railway and Karwar with South Western Railway",
-        "Appeal for the Strategic Merger of Konkan Railway into Indian Railways to Optimize Operations",
-        "Merging Konkan Railway with Indian Railways: A Move Toward Financial and Operational Stability",
-        "Advocating for the Merger of Konkan Railway with Indian Railways for Long-Term Passenger and Infrastructure Gains"
-    ];
+    var recipients = "officeofmr@gov.in,av.odisha@sansad.nic.in,ashwini.vaishnav@gmail.com,cm@maharashtra.gov.in,dcm@maharashtra.gov.in,dycm@maharashtra.gov.in,bagadeharibhau@gmail.com,Chairmanmls5@gmail.com,ministerwssd@gmail.com,cs@maharashtra.gov.in,psec.wssd@maharashtra.gov.in,acs.transport@maharashtra.gov.in,divcom.konkan@maharashtra.gov.in,collector.sindhudurg@maharashtra.gov.in,dycommr.enf1@gmail.com,cbawankule.min@gmail.com,cmpro@maharashtra.gov.in,prakash.sabale@nic.in,rdc.sindhudurg@maharashtra.gov.in,dyceosin@yahoo.com,ceozp.sindhudurg@maharashtra.gov.in,ambadasdanve79@gmail.com,press.secy@rb.nic.in,us.ca4@gov.in,edpg@rb.railnet.gov.in";
+    var cc = "office.mosrs@gov.in,aneesh.hegde@gov.in,chiefminister@maharashtra.gov.in,CM@maharashtra.gov.in,dcm@maharashtra.gov.in,sunil.tatkare55@sansad.nic.in,sunilrane2013@gmail.com,narayan.rane@gov.in,narayan.rane@sansad.nic.in,narayanrane52@gmail.com,shripad.naik52@gov.in,shripad.naik@sansad.nic.in,shrinivaspoojari53@gmail.com,captain.brijesh@sansad.nic.in,aniket.tat@gmail.com,manishakayande@rediffmaill.com,neeilamgorhe@gmail.com,asmita.jagruti@gmail.com,uddhavthackeray@gmail.com,anildattatray@gmail.com,aamshyadada@gmail.com,vilaspotnis99@gmail.com,misunilshinde@gmail.com,BHAIGIRKAR16@gmail.com,niranjandavkhare@gmail.com,pydmlaoffice@gmail.com,kolimahasangh@yahoo.com,dnyaneshwar.mhatre68@gmail.com,kapilpatil@gmail.com,jayantpwp@gmail.com,Yogesh_kadam1986@outlook.com,mlamaheshchoughule@gmail.com,bjpofficemalad@yahoo.com,speakerrsn1@gmail.com,ravishethpatil158@gmail.com,officeofmlaatul@gmail.com,mandataimhatre@gmail.com,nnr23682@gmail.com,bharatilavekar@gmail.com,parag@maninfra.com,ashish.shelar@yahoo.com,yogesh_Sagar09@yahoo.in.com,ameetsatam@yahoo.com,captainr.tamilselvan@gmail.com,jsa707@gmail.com,aadtti7@yahoo.co.in,sbhusara41@gmail.com,nawabmalikmla@gmail.com,gaikwad.varsha3@gmail.com,aminpatel186@gmail.com,abuasimazmi@hotmail.com,raissp132@gmail.com,mla@rajupatilmns.com,geetajainoffice@gmail.com,secy1-mls@mah.gov.in,shekhargnikam@gmail.com,sandipanbhumare@gmail.com,sandipanbhumare.mp@sansad.nic.in,sc.barne@sansad.nic.in,appabarne@gmail.com,nageshpatil4545@gmail.com,udayanrajebhonsle@gmail.com,udayanraje.bhonsle@sansad.nic.in,shahuchhatrapatikop@gmail.com,shahu.chhatrapatikol@sansad.nic.in,anil.desai@sansad.nic.in,email@nitingadkari.org,nitin.gadkari@nic.in,piyush.goyal@gov.in,prataprao.jadhav@sansad.nic.in,jadhavprataprao25@gmail.com,prataprao.jadhav@gmail.com,nr.khadase@sansad.nic.in,rakshataikhadse@gmail.com,dramolkolhe80@gmail.com,amol.kolhe@sansad.nic.in,dhairyasheelmane@gmail.com,sureshmhatre1701@gmail.com,murlidhar.mohol@gmail.com,sanjaydinapatil@gmail.com,hemantsavara@yahoo.co.in,arvind.sawant@sansad.nic.in,officeofdrshrikantshinde.delhi@gmail.com,supriyassule@gmail.com,smita.udaywagh@sansad.nic.in,waikarravindra@gmail.com,dranil.bonde@sansad.nic.in,priyanka.c19@sansad.nic.in,ashokchavan.009@sansad.nic.in,mpmilind.deora@sansad.nic.in,cdhandore.mp@sansad.nic.in,bhagwat.karad@sansad.nic.in,mp.medha@sansad.nic.in,dhananjaymahadik.mp@sansad.nic.in,praful@sansad.nic.in,dhairyashil.mprs@sansad.nic.in,pawars@sansad.nic.in,s.raut@sansad.nic.in,ambadasdanve79@gmail.com,anilkadam7711@gmail.com,vnaik95@gmail.com,press.secy@rb.nic.in,shivsenabhavan@gmail.com,Bjpmaha@gmail.com,vinodtawde@rediffmail.com,vinodstawde@gmail.com,spprabhu1@gmail.com,secretary@sureshprabhu.com,infokokanclub@gmail.com,k.gautam@nic.in,general@krcl.co.in ";
+    var bcc = "akhandkokanpravasiseva@gmail.com,swaditerminus@gmail.com";
     
-    var subject = subjects[Math.floor(Math.random() * subjects.length)];
-    
-    var body = `To,
-Hon. Shri Ashwini Vaishnav ji,
-Cabinet Minister,Railways
-Government of India.
-                
-Hon. Shri. V. Somanna ji
-MoS, Railways,
-Government of India.
+    var subject = "सावंतवाडी टर्मिनसचे उद्घाटन आपल्या हस्ते व्हावे ही कोकणवासियांची भावना";
+    var body = `प्रति,
+श्री देवेंद्र सरिता गंगाधरराव फडणवीस यांसी,
+मुख्यमंत्री महाराष्ट्र राज्य.
 
-Hon. Shri Ravneet Singh Bittu ji.
-MoS, Railways,
-Government of India.
+विषय : सावंतवाडी टर्मिनसचे उद्घाटन आपल्या हस्ते व्हावे ही कोकणवासियांची भावना.
 
-Subject: Merger of Konkan Railway in Indian Railways by integrating Ratnagiri Region (Kolad to Madure) with Central Railway and Karwar Region with South Western Railway
+आदरणीय देवा भाऊ,
 
-Respected Sir,
+आपण २०१९ वर्षीच्या विधानसभा निवडणुकीत जसे बोललात तसे २०२४ वर्षीच्या विधानसभा निवडणुकीत उशिरा का होईना पण प्रचंड बहुमताने पुन्हा आलात,
+अभिनंदन..!!
+कोकणातील जनतेने देखील महायुतीला प्रचंड बहुमताने विजयी करून आपल्याला भक्कम साथ दिलीय.
 
-Konkan Railway Corporation Limited (KRCL) was established in 1990 on a Build-Operate-Transfer (BOT) basis, primarily to complete the railway line from Roha to Thokur (Mangaluru). While Indian Railways holds a 51% stake, state contributions include Maharashtra (22%), Karnataka (15%), Goa (6%), and Kerala (6%). Initially, KRCL was to merge with Indian Railways after 15 years, but in 2008, the government opted for KRCL's independence, limiting its capacity to enhance infrastructure.
+देवा भाऊ, आम्हाला आठवतेय, की आपण सण २०१४ ला महाराष्ट्राचे मुख्यमंत्री बनल्यावर मा. रेल्वेमंत्री सुरेश प्रभू व मा. पालकमंत्री दीपकभाई केसरकर यांचा उपस्थितीत २७ जून २०१५ रोजी सावंतवाडी टर्मिनसचा शिलान्यास केला होता, तेव्हा कोकणी जनता आणि मुंबईस्थित चाकरमानी या घटनेने सुखावले होते, परंतु आपल्याला सांगू इच्छितो की आजतागायत या सावंतवाडी टर्मिनसचे काम पूर्ण झालेले नाही.
+आपण त्यावेळी आपल्या भूमिपूजनाचा भाषणात ह्या टर्मिनस चे उद्घाटनाला देखील आपण नक्की येऊ, आणि आपल्या हस्तेच या टर्मिनस चे उद्घाटन होईल असे संबोधिले होते, ते शब्द आज ही मला आठवतात. कारण तो प्रसंग मी आणि माझ्या कुटुंबाने याची देही याची डोळा पाहिला होता.
 
-As of May 29, 2024, KRCL is grappling with substantial financial difficulties, with total liabilities amounting to ₹7,337 crore, including a ₹1,500 crore bond that is due soon. Delays in funding from the ministry of railways and state governments have forced KRCL to rely on loans, hindering development efforts. The proposal for patch doubling of a 141 km route was abandoned due to a lack of allocated funds from state governments. Both the Union Ministry and the Finance Ministry also declined to finance the project since the state governments did not participate. This situation is a rare instance in the country where a railway doubling project has been dropped due to insufficient funding from state governments, largely thanks to the PSU status of Konkan Railway. Konkan Railway remains excluded from key projects, such as the Amrit Bharat Station Scheme. Also, it is not listed under High Density Network (HDN) or Highly Utilized Network (HUN) despite high passenger traffic. To address these challenges, we propose merging Konkan Railway with Indian Railways, absorbing its debts. We propose the following options for the merger in view of better passenger services.
+देवा भाऊ, काळ लोटला.. बघता बघता २०२५ साल जवळ आले आणि तो क्षण पुन्हा आला, आपण पुन्हा या राज्याचे बहुमताने मुख्यमंत्री झालात आणि पुन्हा त्या टर्मिनसच्या भूमिपूजनाचा सोहळा माझ्या डोळ्यांसमोर उभा ठाकला, पुन्हा एक हळूच ती आशा जागृत झाली, मनाला सावंतवाडी टर्मिनसचे वेध पुन्हा लागले.
 
-Option 1 (Integration of Roha - Madure section with Central Railway and the rest with South Western Railway): Establishing a new railway zone involves significant costs, including land acquisition, the creation of new positions, and increased administrative expenses. Therefore, it is more beneficial to integrate the Konkan Railway route into the existing railway zones. To improve operational efficiency, we propose transferring the Roha to Madure section in Maharashtra to Central Railway, while the section in Karnataka should be assigned to South Western Railway. Central Railway primarily manages most of Maharashtra, and South Western Railway covers most of Karnataka, making this arrangement logical.
+देवा भाऊ, आपण पुन्हा आलात, आणि तुमच्या सोबत माजी मुख्यमंत्री, कोकणचे भाग्यविधाते आणि या मतदारसंघाचे खासदार श्री नारायणराव राणे आहेत, सोबत सावंतवाडीचे आदरणीय भाई, अर्थातच दीपक भाई, हिंदुत्वाचे उभरते नेतृत्व आणि या जिल्ह्याचे पालकमंत्री श्री नितेश राणे, आमदार श्री निलेश राणे, आमदार आणि आपल्या पक्षाचे कार्यकारी अध्यक्ष श्री रवी दादा ही सिंधुदुर्ग जिल्ह्यातील दिग्गज नेते मंडळी आहेतच,
 
-Option 2 (Handover the operations of Roha - Madure section to Central Railway, rest with South Western Railway and KRCL to continue as a construction authority PSU): Should the existence of Konkan Railway be deemed necessary, it should be designated to focus on construction work and then transfer it to the relevant railway zones as done in the case of Udhampur-Srinagar-Baramulla Rail Link (USBRL) project in Jammu and Kashmir where Konkan Railway has constructed the line and handed it over to Northern Railway.
+देवा भाऊ, आपण शिलान्यास केलेले सावंतवाडी टर्मिनसचा कोनशिला आपली वाट बघतोय, त्या कोनशिलेला आपण द्याल का न्याय..? येथील टर्मिनस प्रेमी जनता आपली जिवाच्या आकांताने आपल्याला साद घालत आहे, आपण त्यांना द्याल का साथ..?
 
-Passengers are the ultimate stakeholders of the railways, and we urge that our voices be prioritized in any decisions regarding the merger. We call upon Hon. Prime Minister Shri Narendra Modi, Hon. Railway Minister Shri Ashwini Vaishnav, Hon. Finance Minister Smt. Nirmala Sitharaman, Hon. Chief Minister of Maharashtra Shri Eknath Shinde, and other key leaders to expedite this historic merger. This is a significant opportunity for our leaders to leave a lasting legacy.
+देवा भाऊ, कोकण रेल्वे महामंडळ या सावंतवाडी टर्मिनसला पूर्ण विसरून गेलाय, म्हणतोय टर्मिनस ला आलेला निधी माघारी गेला म्हणून.
+परंतु देवा भाऊ, आता कोकणी जनता या महामंडळाला नारळ देण्यावर ठाम झालाय, आपण कराल का मदत..? ह्या रेल्वे महामंडळातील महाराष्ट्र राज्याचा हिस्सा द्याल का केंद्राला..? हे महामंडळ होईल का भारतीय रेल्वे चा भाग..?
 
-Copy To:
-Hon. Shri. Eknath Shinde, Chief Minister, Maharashtra
-Hon. Shri. Devendra Fadnavis, Deputy Chief Minister, Maharashtra
-Hon. Shri. Ajit Pawar, Deputy Chief Minister, Maharashtra
-All concerned Members of Parliament
-All concerned Members of Legislative Assembly and Council`;
+देवा भाऊ, आपली दूरदृष्टी नेते अशी ओळख आहे, समृध्दीने ते दाखवून ही दिलेय. तशीच जबाबदारी आपण आमच्या छोट्याश्या सावंतवाडी टर्मिनसची देखील घ्यावी अशी आम्हा कोकणी जनतेची इच्छा आपण कराल का पूर्ण.?
 
-    var emailLink = "mailto:" + encodeURIComponent(recipients) +
-                    "?cc=" + encodeURIComponent(cc) +
-                    "&bcc=" + encodeURIComponent(bcc) +
-                    "&subject=" + encodeURIComponent(subject) +
-                    "&body=" + encodeURIComponent(body);
+देवा भाऊ, या टर्मिनसची अपूर्ण कामे पूर्ण होऊन सदर टर्मिनसचे उद्घाटन हे आपल्या हस्ते व्हावे कदाचित हेच त्या विधात्याला मान्य असावे.
+
+देवा भाऊ, कोकणी जनतेची ही इच्छा आपण पूर्ण करावी, जेणेकरून कोकणी जनता आपल्या रामेश्वराकडे आपल्या उत्तम आरोग्य, भरभराटी साठी नक्कीच गाऱ्हाणे घालील हा शब्द आहे.
+आणि हो, सदर टर्मिनसला प्राध्यापक मधु दंडवते यांचे नाव द्यावे जेणेकरून ज्याने ही वास्तू घडवली त्या शिल्पकराचा योग्य सन्मान या देवभूमित राखला जाईल.
+
+आपला एक हितचिंतक,`;
 
     // Create temporary anchor element
     var tempLink = document.createElement('a');
