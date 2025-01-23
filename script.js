@@ -93,38 +93,60 @@ setInterval(changeBackgroundImage, 4000);
       const randomIndex = Math.floor(Math.random() * subjects.length);
       const subject = subjects[randomIndex];
       
-      var body = `प्रति,
-  श्री देवेंद्र सरिता गंगाधरराव फडणवीस यांसी,
-  मुख्यमंत्री महाराष्ट्र राज्य.
-  
-  विषय : सावंतवाडी टर्मिनसचे उद्घाटन आपल्या हस्ते व्हावे ही कोकणवासियांची भावना.
-  
-  आदरणीय देवा भाऊ,
-  
-  आपण २०१९ वर्षीच्या विधानसभा निवडणुकीत जसे बोललात तसे २०२४ वर्षीच्या विधानसभा निवडणुकीत उशिरा का होईना पण प्रचंड बहुमताने पुन्हा आलात,
-  अभिनंदन..!!
-  कोकणातील जनतेने देखील महायुतीला प्रचंड बहुमताने विजयी करून आपल्याला भक्कम साथ दिलीय.
-  
-  देवा भाऊ, आम्हाला आठवतेय, की आपण सण २०१४ ला महाराष्ट्राचे मुख्यमंत्री बनल्यावर मा. रेल्वेमंत्री सुरेश प्रभू व मा. पालकमंत्री दीपकभाई केसरकर यांचा उपस्थितीत २७ जून २०१५ रोजी सावंतवाडी टर्मिनसचा शिलान्यास केला होता, तेव्हा कोकणी जनता आणि मुंबईस्थित चाकरमानी या घटनेने सुखावले होते, परंतु आपल्याला सांगू इच्छितो की आजतागायत या सावंतवाडी टर्मिनसचे काम पूर्ण झालेले नाही.
-  आपण त्यावेळी आपल्या भूमिपूजनाचा भाषणात ह्या टर्मिनस चे उद्घाटनाला देखील आपण नक्की येऊ, आणि आपल्या हस्तेच या टर्मिनस चे उद्घाटन होईल असे संबोधिले होते, ते शब्द आज ही मला आठवतात. कारण तो प्रसंग मी आणि माझ्या कुटुंबाने याची देही याची डोळा पाहिला होता.
-  
-  देवा भाऊ, काळ लोटला.. बघता बघता २०२५ साल जवळ आले आणि तो क्षण पुन्हा आला, आपण पुन्हा या राज्याचे बहुमताने मुख्यमंत्री झालात आणि पुन्हा त्या टर्मिनसच्या भूमिपूजनाचा सोहळा माझ्या डोळ्यांसमोर उभा ठाकला, पुन्हा एक हळूच ती आशा जागृत झाली, मनाला सावंतवाडी टर्मिनसचे वेध पुन्हा लागले.
-  
-  देवा भाऊ, आपण पुन्हा आलात, आणि तुमच्या सोबत माजी मुख्यमंत्री, कोकणचे भाग्यविधाते आणि या मतदारसंघाचे खासदार श्री नारायणराव राणे आहेत, सोबत सावंतवाडीचे आदरणीय भाई, अर्थातच दीपक भाई, हिंदुत्वाचे उभरते नेतृत्व आणि या जिल्ह्याचे पालकमंत्री श्री नितेश राणे, आमदार श्री निलेश राणे, आमदार आणि आपल्या पक्षाचे कार्यकारी अध्यक्ष श्री रवी दादा ही सिंधुदुर्ग जिल्ह्यातील दिग्गज नेते मंडळी आहेतच,
-  
-  देवा भाऊ, आपण शिलान्यास केलेले सावंतवाडी टर्मिनसचा कोनशिला आपली वाट बघतोय, त्या कोनशिलेला आपण द्याल का न्याय..? येथील टर्मिनस प्रेमी जनता आपली जिवाच्या आकांताने आपल्याला साद घालत आहे, आपण त्यांना द्याल का साथ..?
-  
-  देवा भाऊ, कोकण रेल्वे महामंडळ या सावंतवाडी टर्मिनसला पूर्ण विसरून गेलाय, म्हणतोय टर्मिनस ला आलेला निधी माघारी गेला म्हणून.
-  परंतु देवा भाऊ, आता कोकणी जनता या महामंडळाला नारळ देण्यावर ठाम झालाय, आपण कराल का मदत..? ह्या रेल्वे महामंडळातील महाराष्ट्र राज्याचा हिस्सा द्याल का केंद्राला..? हे महामंडळ होईल का भारतीय रेल्वे चा भाग..?
-  
-  देवा भाऊ, आपली दूरदृष्टी नेते अशी ओळख आहे, समृध्दीने ते दाखवून ही दिलेय. तशीच जबाबदारी आपण आमच्या छोट्याश्या सावंतवाडी टर्मिनसची देखील घ्यावी अशी आम्हा कोकणी जनतेची इच्छा आपण कराल का पूर्ण.?
-  
-  देवा भाऊ, या टर्मिनसची अपूर्ण कामे पूर्ण होऊन सदर टर्मिनसचे उद्घाटन हे आपल्या हस्ते व्हावे कदाचित हेच त्या विधात्याला मान्य असावे.
-  
-  देवा भाऊ, कोकणी जनतेची ही इच्छा आपण पूर्ण करावी, जेणेकरून कोकणी जनता आपल्या रामेश्वराकडे आपल्या उत्तम आरोग्य, भरभराटी साठी नक्कीच गाऱ्हाणे घालील हा शब्द आहे.
-  आणि हो, सदर टर्मिनसला प्राध्यापक मधु दंडवते यांचे नाव द्यावे जेणेकरून ज्याने ही वास्तू घडवली त्या शिल्पकराचा योग्य सन्मान या देवभूमित राखला जाईल.
-  
-  आपला एक हितचिंतक,`;
+      var body = `To,
+
+Hon. Shri Devendra Fadanavis ji,
+Chief Minister of Maharashtra
+Mumbai,
+
+Subject: Requesting you to take prompt responses along with immediate action on the approved work of the Sawantwadi Railway Terminus (SWV), requirement of additional train halts and passengers Amenities.
+
+Respected Sir,
+
+
+I would like to seek your attention on the following recent proposals and multiple requests:
+
+1.Prolonged pending development work at the Sawantwadi railway terminus should be completed as soon as possible. Including Rel-O-Tel, Terminus Building,Platforms, Watering Arrangements etc.
+
+2.Konkan Railway corporation needs to be merged into Indian Railways for better future aspects.
+Intigrate Ratnagiri Region (Kolad to Madura) with Central Railway, And Karwar Region with South Western Railway. 
+
+3.Inclusion of Sawantwadi station in the Amrit Bharat Station Scheme. 
+KRCL has already sent its proposal to the Executive Director (SD and Trans) Railway Board, Dated 30/12/2022.
+
+3.Halts of the express trains mentioned below were revoked from Sawantwadi Rd station due to ZBTT during the covid period should be reinstated on high priority.
+
+1. 12431/32 H. Nizamuddin - Trivendrum Rajdhani express.
+2. 12201/02 LTT Mumbai - Kochuvelli Garib Rath Express.
+
+KRCL has already sent its proposal regarding Feasibility of said halts with their remarks to the Principal Executive Director (Coaching) Railway Board, Dated 07/08/2024.
+
+
+4.Please consider the high Passengers footfall and Earnings at Sawantwadi station and kindly provide halts to below trains at Sawantwadi Rd station.
+
+i) 12133/34 C.S.M.T. Mumbai - Manglore Junction - C.S.M.T. Mumbai Express.
+
+ii) 22229/30 C.S.M.T. Mumbai - Madgaon - C.S.M.T. Mumbai Vande Bharat Express.
+
+iii) 22655/56 Ernakulam Junction - H. Nizamuddin - Ernakulam Junction Superfast Express. (Weekly).
+
+iv) 22653/54 Trivandrum Central - H. Nizamuddin - Trivandrum Central Superfast Express. (Weekly).
+
+
+5.Introduction of the new daily train From Pune Junction  - Kalyan (Mumbai) -  Sawantwadi (SWV), on regular basis.
+
+6.Expendite the Work of New BG Line between Sawantwadi - Chandgarh - Belgaum.(114.6KM)
+(Preliminary Engineering Cum Traffic Survay Report has been submitted to the Railway Board by SWR at Dated 21/09/2018.)
+
+Please note we attempted multiple times with the KRCL via various contact mediums requesting to fulfill the studyful and basic demands to be accepted but unfortunately we didn't get proper response or we would rather say concrete action plan was not made to achieve the same.
+
+Scheduling a meeting at your office along with Konkan railway passenger Asssociation Sawantwadi would bring more light to resolve these problems.
+
+Looking forward to hearing more on this matter as soon as possible.
+
+Thank you!
+
+Your Sincerely,`;
   
       var emailLink = "mailto:" + encodeURIComponent(recipients) +
                       "?cc=" + encodeURIComponent(cc) +
