@@ -49,7 +49,7 @@ function changeBackgroundImage() {
     heroSection.style.backgroundImage = `url('${imagePaths[currentIndex]}')`;
     currentIndex = (currentIndex + 1) % imagePaths.length; // Loop back to the first image
 }
-
+changeBackgroundImage();
 // Change image every 4 seconds
 setInterval(changeBackgroundImage, 4000);
 
@@ -62,22 +62,21 @@ setInterval(changeBackgroundImage, 4000);
 
 
   // Email Button
-  const subjects = [
-    "कोकण रेल्वेचे भारतीय रेल्वेत विलीनीकरण करण्यास अधिवेशनात तारांकित प्रश्न उपस्थित करणे बाबत.",
-    "सावंतवाडी टर्मिनस संदर्भात राज्य शासनाची भूमिका.",
-    "सावंतवाडी टर्मिनस संदर्भात तारांकित प्रश्न उपस्थित करणे बाबत.",
-    "कोकण रेल्वे संदर्भात अधिवेशनात आवाज उठवणे बाबत.",
-    "कोकण रेल्वेच्या विलीनीकरणावर महाराष्ट्र शासनाची अधिकृत भूमिका स्पष्ट करावी.",
-    "कोकण रेल्वे विलीनीकरणासंदर्भात राज्य शासनाने केंद्र सरकारला दिलेले पत्र आणि उत्तराची माहिती द्यावी.",
-    "कोकण रेल्वेच्या पायाभूत सुविधा विकासासाठी महाराष्ट्र सरकारने कोणती तरतूद केली आहे?",
-    "सावंतवाडी रेल्वे टर्मिनसच्या नामकरण व विकासासाठी राज्य शासनाने कोणती पावले उचलली आहेत?",
-    "कोकण रेल्वेच्या वीर ते मडुरे दुहेरीकरणासाठी राज्य सरकारने निधी उपलब्ध करून दिला आहे का?",
-    "कोकण रेल्वेच्या विलीनीकरणाआधी महाराष्ट्र शासनाने आपले समभाग केंद्र सरकारकडे सुपूर्द करावेत का?",
-    "कोकण रेल्वेच्या विलीनीकरणासंदर्भात राज्याची भूमिका काय आहे?",
-    "कोकण रेल्वे महामंडळाच्या स्वायत्ततेमुळे कोकणला होणाऱ्या वित्तीय नुकसानीबाबत चर्चा आवश्यक आहे.",
-    "अमृत भारत स्थानक योजनेंतर्गत कोकण रेल्वे स्थानकांचा समावेश का नाही?",
-    "कोकण रेल्वेचे भारतीय रेल्वेत विलीनीकरण लवकरात लवकर करण्यासंदर्भात अधिवेशनात चर्चा करावी."
-  ];
+const subjects = [
+    // Direct & Action-Oriented
+    "Your Intervention Required: Voicing Konkan's Urgent Railway Needs in Parliament",
+    "Monsoon Session Agenda: Prioritizing Critical Demands for Konkan Railway",
+    "Act for Konkan: Key Railway Demands for the 2025 Monsoon Session",
+
+    // Constituent & Benefit-Focused
+    "On Behalf of Konkan Passengers: An Urgent Appeal for This Parliamentary Session",
+    "Unlocking Konkan's Potential: Key Railway Upgrades for Your Urgent Attention",
+    "The Voice of Konkan Citizens: A Formal Request on Pressing Railway Matters",
+
+    // Concise & Urgent
+    "Time-Sensitive: Addressing Konkan Railway Issues in this Monsoon Session",
+    "Championing Konkan's Lifeline: A Critical Agenda for Parliament"
+];
   
   
 
@@ -87,40 +86,42 @@ setInterval(changeBackgroundImage, 4000);
   
       console.log("email section");
   
-      //var recipients = "officeofmr@gov.in,cm@maharashtra.gov.in,dcm@maharashtra.gov.in,dycm@maharashtra.gov.in,bagadeharibhau@gmail.com,Chairmanmls5@gmail.com,ministerwssd@gmail.com,cs@maharashtra.gov.in,psec.wssd@maharashtra.gov.in,acs.transport@maharashtra.gov.in,divcom.konkan@maharashtra.gov.in,collector.sindhudurg@maharashtra.gov.in,dycommr.enf1@gmail.com,cbawankule.min@gmail.com,cmpro@maharashtra.gov.in,prakash.sabale@nic.in,rdc.sindhudurg@maharashtra.gov.in,dyceosin@yahoo.com,ceozp.sindhudurg@maharashtra.gov.in,ambadasdanve79@gmail.com,press.secy@rb.nic.in,us.ca4@gov.in,edpg@rb.railnet.gov.in";
-      var recipients = "ncpconnect.mumbai@gmail.com" ;
-      //var cc = "office.mosrs@gov.in,aneesh.hegde@gov.in,narayanrane52@gmail.com,shripad.naik52@gov.in,aniket.tat@gmail.com,manishakayande@rediffmaill.com,neeilamgorhe@gmail.com,asmita.jagruti@gmail.com,uddhavthackeray@gmail.com,anildattatray@gmail.com,aamshyadada@gmail.com,misunilshinde@gmail.com,BHAIGIRKAR16@gmail.com,niranjandavkhare@gmail.com,pydmlaoffice@gmail.com,kolimahasangh@yahoo.com,dnyaneshwar.mhatre68@gmail.com,jayantpwp@gmail.com,Yogesh_kadam1986@outlook.com,mlamaheshchoughule@gmail.com,bjpofficemalad@yahoo.com,speakerrsn1@gmail.com,ravishethpatil158@gmail.com,officeofmlaatul@gmail.com,mandataimhatre@gmail.com,nnr23682@gmail.com,bharatilavekar@gmail.com,parag@maninfra.com,ashish.shelar@yahoo.com,ameetsatam@yahoo.com,sbhusara41@gmail.com,nawabmalikmla@gmail.com,gaikwad.varsha3@gmail.com,aminpatel186@gmail.com,abuasimazmi@hotmail.com,raissp132@gmail.com,mla@rajupatilmns.com,geetajainoffice@gmail.com,secy1-mls@mah.gov.in,shekhargnikam@gmail.com,sandipanbhumare@gmail.com,appabarne@gmail.com,nageshpatil4545@gmail.com,shahuchhatrapatikop@gmail.com,email@nitingadkari.org,nitin.gadkari@nic.in,jadhavprataprao25@gmail.com,rakshataikhadse@gmail.com,dramolkolhe80@gmail.com,dhairyasheelmane@gmail.com,sureshmhatre1701@gmail.com,murlidhar.mohol@gmail.com,sanjaydinapatil@gmail.com,hemantsavara@yahoo.co.in,officeofdrshrikantshinde.delhi@gmail.com,supriyassule@gmail.com,waikarravindra@gmail.com,mpmilind.deora@sansad.nic.in,dhairyashil.mprs@sansad.nic.in,pawars@sansad.nic.in,s.raut@sansad.nic.in,ambadasdanve79@gmail.com,anilkadam7711@gmail.com,vnaik95@gmail.com,press.secy@rb.nic.in,shivsenabhavan@gmail.com,Bjpmaha@gmail.com,vinodtawde@rediffmail.com,vinodstawde@gmail.com,spprabhu1@gmail.com,secretary@sureshprabhu.com,infokokanclub@gmail.com,k.gautam@nic.in,general@krcl.co.in,ibnlokmatsport@gmail.com ,mymahanagarweb@gmail.com,middaysocial@gmail.com , pratikriya@expressindia.com ,admin@freepressjournal.in ";
-      var cc = " jayantrp@gmail.com,rrp@rohitpawar.org ";
-      var bcc = "akhandkokanpravasiseva@gmail.com,swaditerminus@gmail.com";
+    var recipients = "sandipanbhumare.mp@sansad.nic.in, sandipanbhumare@gmail.com, nageshpatil4545@gmail.com, patil.nagesh@sansad.nic.in, sc.barne@sansad.nic.in, appabarne@gmail.com, shyamkumarbarve5@gmail.com, shyam.kumarmp@mpls.sansad.in, bhaskarbhagare11.bb@gmail.com, bhaskar.bhagare@mpls.sansad.in, udayanrajebhonsle@gmail.com, udayanraje.bhonsle@sansad.nic.in, shahuchhatrapatikop@gmail.com, shahu.chhatrapatikol@sansad.nic.in, sunil.tatkare7@gmail.com, sunil.tatkare55@sansad.nic.in, anil.desai@sansad.nic.in, deshmukhsanjay400@gmail.com, sanjay.deshmukhmp@mpls.sansad.in, dhotre.anup@gmail.com, dhotre.anup@mpls.sansad.in, drshobhabachhav@gmail.com, dr.shobhataibachhav@mpls.sansad.in, email@nitingadkari.org, nitin.gadkari@nic.in, gaikwad.varsha3@sansad.nic.in, gaikwad.varsha3@gmail.com, gaikwad.varhsa3@gmail.com, piyush.goyal@gov.in, prataprao.jadhav@sansad.nic.in, jadhavprataprao25@gmail.com, prataprao.jadhav@gmail.com, jadhav.sanjay@sansad.nic.in, jadhav.sanjay@mpls.sansad.in, sanjayjadhav59@yahoo.com, drkvkale98@gmail.com, drkvkale.mp@mpls.sansad.in, mlaamarkale@gmail.com, amarsharadraokale.mp@mpls.sansad.in, kalgeshivaji@rediffmail.com, kalge.shivaji@sansad.nic.in, nr.khadase@sansad.nic.in, rakshataikhadse@gmail.com, dramolkolhe80@gmail.com, amol.kolhe@sansad.nic.in, mpnileshlanke3333@gmail.com, nilesh.lanke333@mpls.sansad.in, dhairyasheelmane@gmail.com, mp.dsmane@sansad.nic.in, nareshmhaske.mp@sansad.nic.in, nareshmhaske@gmail.com, sureshmhatre1701@gmail.com, suresh.mhatre1701@mpls.sansad.in, murlidhar.mohol@sansad.nic.in, murlidhar.mohol@gmail.com, sanjaydinapatil@rediffmail.com, sanjaydinapatil@gmail.com, sd.patil@sansad.nic.in, narayan.rane@gov.in, narayan.rane@sansad.nic.in, narayanrane52@gmail.com, narayan.rane@mpls.sansad.in, hemant.savara@sansad.nic.in, hemantsavara@yahoo.co.in, hemantsavara5@gmail.com, arvindsawantg@gmail.com, arvind.sawant@sansad.nic.in, shrikant.shinde@sansad.nic.in, shrikantshinde87@yahoo.in, supriyassule@gmail.com, supriya.sule@sansad.nic.in, supriya.sule@mpls.sansad.in, waikarravindra@gmail.com, ravindrawaikar.mp@sansad.nic.in, ravindrawaikar.mp@mpls.sansad.in, ashokchavan.009@sansad.nic.in, ashokchavan009@gmail.com, mp.medha@sansad.nic.in, ramdas@sansad.nic.in, priyanka.c19@sansad.nic.in, mpmilind.deora@sansad.nic.in, dr.agopchade@sansad.nic.in, cdhandore.mp@sansad.nic.in, bhagwat.karad@sansad.nic.in, fauzia.khanmp@sansad.nic.in";
+      var cc = "collector.raigad@maharashtra.gov.in, collector.ratnagiri@maharashtra.gov.in, collector.sindhudurg@maharashtra.gov.in, ceozp.thane@maharashtra.gov.in, ceozp.sindhudurg@maharashtra.gov.in, ceozp.raigad@maharashtra.gov.in, ceozp.ratnagiri@maharashtra.gov.in, secy.rb-mh@nic.in, Snehadubepandit.jansampark@gmail.com, Mumbaibjp2@gmail.com, Ashokdpatil111@gmail.com, vinodstawde@gmail.com, Hmkpindia@gmail.com, kesarkardeepak@gmail.com, Cm@maharashtra.gov.in, niranjanvdavkhare@gmail.com, dcm@maharashtra.gov.in, udaysamant11@gmail.com, ceo@mygov.in, nnr23682@gmail.com, Jayantrp@gmail.com, Kcvenugopal.org@gmail.com, Sulbhagaikwad142@gmail.com, Marathaghad@gmail.com, shekhargnikam@gmail.com, prashant.t2100@gmail.com, ravishethpatil158@gmail.com, ravindrachavan.mla@gmail.com, minister.ravindrachavan@gmail.com, ministerudaysamant@gmail.com, mlaoffice99@gmail.com, pydmlaoffice@gmail.com, kuldeep.raje2@gmail.com, rajendraa@gmail.com, edpgmr@rb.railnet.gov.in, edpg@rb.railnet.gov.in, edpm@rb.railnet.gov.in, pgcell.mumbai@gmail.com, edcc@rb.railnet.gov.in, aspg@cr.railnet.gov.in, Mchemte2@gmail.com, us-public@pmo.gov.in, dpgwr@wr.railnet.gov.in, crb@rb.railnet.gov.in, pankajamundepalwe@yahoo.in, press.secy@rb.nic.in, nitinmarathi28gmail.com, cmpro@maharashtra.gov.in, satejdpatildyp@gmail.com, devenjd007@yahoo.com";
+      
+      var bcc = "";
       
       const randomIndex = Math.floor(Math.random() * subjects.length);
       const subject = subjects[randomIndex];
       
-      var body = `आदरणीय महोदय,
+      var body = `Respected Member of Parliament,
 
-आपल्या सोशल मीडिया प्लॅटफॉर्म मार्फत मिळालेल्या माहितीनुसार, आम्ही कोकणवासी आमच्या रेल्वे संदर्भातील समस्या आपल्यापर्यंत पोचवत आहोत. आपण या अधिवेशनात यावर सरकारचे लक्ष वेधावे ही विनंती.
+On behalf of passengers and citizens of Maharashtra's Konkan region, we seek your kind intervention to raise the following long-pending railway demands in the upcoming Monsoon Session of Parliament:
 
-महाराष्ट्र शासनाने पुढील प्रश्नांची उत्तरे देणे आवश्यक आहे, ते आपण सभागृहात विचारावेत, ही नम्र विनंती:
-१. कोकण रेल्वेच्या विलीनीकरणाबाबत राज्य शासनाला कोणते पत्र प्राप्त झाले आहे का? असल्यास, त्याला काय उत्तर दिले?
-२. कोकण रेल्वे विलीनीकरणाबाबत महाराष्ट्राची भूमिका काय?
-३. विलीनीकरणाला विरोध असल्यास महाराष्ट्राने कोकण रेल्वेच्या वीर ते मडुरे दुहेरीकरणासाठी, परिपूर्ण सावंतवाडी टर्मिनससाठी व पायाभूत सुविधा विकासासाठी किमान १० हजार कोटींचा निधी देण्याची शासनाची तयारी आहे का?
-४. विलीनीकरणासाठी इतर राज्ये तयार नसल्यास महाराष्ट्राने आपले समभाग केंद्राच्या स्वाधीन करून रोहा ते मडूरे मार्ग केंद्रीय रेल्वे मंत्रालयाला हस्तांतरित करावा.
-५. सावंतवाडी रेल्वे टर्मिनसच्या नामकरण तथा विकासासाठी राज्यसरकार तर्फे काय तरतूद करण्यात आली आहे ?
+Key Demands:
 
+1. Merge Konkan Railway with Indian Railways – Integrate Ratnagiri region (Roha–Madure) into Central Railway and Karwar region (Pernem–Thokur) into South Western Railway, keeping KRCL as a construction arm. Kindly follow up on the Hon’ble Maharashtra CM’s letter (May 2025) on this.
 
-तांत्रिक मुद्दे विशद करणारी 
+2. Sawantwadi Terminus & Coaching Depot – Complete pending work at Sawantwadi Road station 
 
-मुंबई आणि मंगळुरु ही दोन बंदरे जोडण्याच्या दृष्टीने रोहा ते मंगळुरु दरम्यान नवीन ब्रॉडगेज मार्ग बांधण्यासाठी केंद्रीय रेल्वे मंत्रालय, महाराष्ट्र, गोवा, कर्नाटक आणि केरळ राज्य शासनांच्या संयुक्त विद्यमाने कोकण रेल्वे महामंडळाची स्थापना १९९० मध्ये करण्यात आली. १५ वर्षांनंतर किंवा सर्व देणी देऊन झाल्यावर यांपैकी जे आधी होईल तेव्हा हे महामंडळ भारतीय रेल्वेत विलीन होणे अपेक्षित होते. त्यानुसार वर्ष २००८-०९ मध्ये विलीनीकरण होण्याची शक्यता असताना केंद्र शासनाने सर्व देणी देऊन झाल्यावरही हे महामंडळ स्वतंत्रच राहील असे प्रथम आर्थिक पुनर्रचना प्रस्तावात ठरवले.
+3. Mumbai–Madgaon–Mangaluru Route – Include in High-Density Network, begin full route doubling, and increase speed to 160 kmph.
 
-आदरणीय पंतप्रधान श्री. नरेंद्र मोदी यांच्या नेतृत्वाखाली २०१४ पासून भारतीय रेल्वेत आधुनिकीकरण व क्रांती सुरु असताना कोकण मात्र त्यापासून वंचित आहे. त्यामुळे आदरणीय पंतप्रधानांच्या प्रतिमेला धक्का बसतो. कोकण रेल्वे भारतीय रेल्वेचा भाग नसून स्वतंत्र महामंडळ असल्यामुळे हे घडते. केंद्रीय अर्थसंकल्पातून कोकण रेल्वेला निधी मिळत नाही. त्यांना पायाभूत सुविधांच्या सुधारणेसाठी लागणाऱ्या निधीकरिता राज्य शासनाकडून मिळालेला निधी व बाहेरील कर्जांवर अवलंबून राहावे लागते.
+4. Fare Rationalisation – Remove the 40% passenger fare and 50% goods surcharge over Konkan Railway.
 
-संपूर्ण देशात केंद्रीय रेल्वे मंत्रालयाच्या अर्थसंकल्पातून रेल्वे विकास प्रकल्प सुरु असताना केवळ स्वतंत्र महामंडळ असल्यामुळे कोकणाला त्याचा लाभ न देणे अन्यायकारक आहे. ६ ऑगस्ट, २०२३ ला आदरणीय पंतप्रधान श्री. नरेंद्र मोदी यांनी उदघाटन केलेल्या अमृत भारत स्थानक योजनेत कोकण रेल्वेच्या रत्नागिरी विभागातील (म्हणजेच महाराष्ट्रातील) एकाही स्थानकाचा समावेश नाही.
+5. Amrit Bharat Station Scheme – Include Konkan Railway stations in Maharashtra.
 
-कोकण रेल्वे महामंडळाचे भारतीय रेल्वेत विलीनीकरण करण्याआधी ही कंपनी १००% मालकी हक्कांसहित केंद्र शासनाच्या अखत्यारित येणे आवश्यक आहे. त्यासाठी संबंधित राज्य शासनांनी त्यांचे समभाग केंद्रीय रेल्वे मंत्रालयाच्या स्वाधीन केले पाहिजेत असे खासदार श्री. कोटा श्रीनिवास पुजारी व खासदार श्री. धैर्यशील पाटील यांनी संसदेत विचारलेल्या प्रशांत उत्तर देताना केंद्रीय रेल्वे मंत्री श्री. अश्विनी वैष्णव यांनी सांगितले.
+6. Train Extensions & New Services:
+- Extend 17613/17614 Nanded–Panvel Express to Sawantwadi with halts at major Konkan stations.
+- Start a new daytime Mumbai CSMT–Chiplun train with halts at local Konkan stations.
+- Restore 50103/50104 Ratnagiri–Diva Fast Passenger to Dadar and augment to 22 LHB coaches.
+- Extend 10105/10106 Sawantwadi–Diva Express to CSMT/Dadar/LTT/Thane with 22 LHB coaches and 8 unreserved coaches.
 
-म्हणून, कोकण रेल्वेचे भारतीय रेल्वेत विलीनीकरण करण्याच्या प्रस्तावाला महाराष्ट्राच्या वतीने मान्यता मिळणे आवश्यक आहे. त्यासाठी गरज पडल्यास महाराष्ट्राच्या ताब्यात आता असलेले ३९६.५४२५ कोटी रुपयांचे समभाग कोणत्याही मोबदल्याची अपेक्षा न ठेवता केंद्रीय रेल्वे मंत्रालयाला सुपूर्द करावेत. ते केल्यानंतर कोकण रेल्वे केंद्र शासनाच्या ताब्यातील सार्वजनिक क्षेत्रातील उपक्रम न राहता ताबडतोब भारतीय रेल्वेत विलीन केले जाईल याबाबत केंद्रीय रेल्वे मंत्रालयाकडून लेखी हमी घ्यावी.
+7. Vande Bharat – Oppose merger of Mumbai–Madgaon Vande Bharat with Mangaluru service. Instead, start a separate Mangaluru–LTT Vande Bharat with equitable halts and quotas in Maharashtra.
 
-तरी, आपण याबाबतीत येत्या अधिवेशनात आवाज उठवावा ही नम्र विनंती.`;
+We request your active support to pursue these demands with the Railway Ministry for the benefit of Konkan’s citizens.
+
+Sincerely,
+`;
   
       var emailLink = "mailto:" + encodeURIComponent(recipients) +
                       "?cc=" + encodeURIComponent(cc) +
@@ -199,7 +200,6 @@ const representatives = [
     { name: "दीपक चव्हाण", position: "कार्याध्यक्ष", image: "images/representative/representative.png" },
     { name: "राजू कांबळे", position: "प्रमुख", image: "images/representative/representative.png" },
     { name: "तानाजी परब", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
-    { name: "योगिता सावंत", position: "उपाध्यक्ष", image: "images/representative/representative.png" },
     { name: "अक्षय महापदी", position: "सचिव", image: "images/representative/representative.png" },
     { name: "दर्शन कासले", position: "सचिव", image: "images/representative/representative.png" },
     { name: "राजाराम कुंडेकर", position: "कोषाध्यक्ष", image: "images/representative/representative.png" },
