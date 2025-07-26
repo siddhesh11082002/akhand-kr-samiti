@@ -81,20 +81,27 @@ const subjects = [
   
 
   // Email Button
-  const emailbutton = document.querySelector('.email-button');
-  emailbutton.addEventListener('click', function (event) {
-  
-      console.log("email section");
-  
-    var recipients = "sandipanbhumare.mp@sansad.nic.in, sandipanbhumare@gmail.com, nageshpatil4545@gmail.com, patil.nagesh@sansad.nic.in, sc.barne@sansad.nic.in, appabarne@gmail.com, shyamkumarbarve5@gmail.com, shyam.kumarmp@mpls.sansad.in, bhaskarbhagare11.bb@gmail.com, bhaskar.bhagare@mpls.sansad.in, udayanrajebhonsle@gmail.com, udayanraje.bhonsle@sansad.nic.in, shahuchhatrapatikop@gmail.com, shahu.chhatrapatikol@sansad.nic.in, sunil.tatkare7@gmail.com, sunil.tatkare55@sansad.nic.in, anil.desai@sansad.nic.in, deshmukhsanjay400@gmail.com, sanjay.deshmukhmp@mpls.sansad.in, dhotre.anup@gmail.com, dhotre.anup@mpls.sansad.in, drshobhabachhav@gmail.com, dr.shobhataibachhav@mpls.sansad.in, email@nitingadkari.org, nitin.gadkari@nic.in, gaikwad.varsha3@sansad.nic.in, gaikwad.varsha3@gmail.com, gaikwad.varhsa3@gmail.com, piyush.goyal@gov.in, prataprao.jadhav@sansad.nic.in, jadhavprataprao25@gmail.com, prataprao.jadhav@gmail.com, jadhav.sanjay@sansad.nic.in, jadhav.sanjay@mpls.sansad.in, sanjayjadhav59@yahoo.com, drkvkale98@gmail.com, drkvkale.mp@mpls.sansad.in, mlaamarkale@gmail.com, amarsharadraokale.mp@mpls.sansad.in, kalgeshivaji@rediffmail.com, kalge.shivaji@sansad.nic.in, nr.khadase@sansad.nic.in, rakshataikhadse@gmail.com, dramolkolhe80@gmail.com, amol.kolhe@sansad.nic.in, mpnileshlanke3333@gmail.com, nilesh.lanke333@mpls.sansad.in, dhairyasheelmane@gmail.com, mp.dsmane@sansad.nic.in, nareshmhaske.mp@sansad.nic.in, nareshmhaske@gmail.com, sureshmhatre1701@gmail.com, suresh.mhatre1701@mpls.sansad.in, murlidhar.mohol@sansad.nic.in, murlidhar.mohol@gmail.com, sanjaydinapatil@rediffmail.com, sanjaydinapatil@gmail.com, sd.patil@sansad.nic.in, narayan.rane@gov.in, narayan.rane@sansad.nic.in, narayanrane52@gmail.com, narayan.rane@mpls.sansad.in, hemant.savara@sansad.nic.in, hemantsavara@yahoo.co.in, hemantsavara5@gmail.com, arvindsawantg@gmail.com, arvind.sawant@sansad.nic.in, shrikant.shinde@sansad.nic.in, shrikantshinde87@yahoo.in, supriyassule@gmail.com, supriya.sule@sansad.nic.in, supriya.sule@mpls.sansad.in, waikarravindra@gmail.com, ravindrawaikar.mp@sansad.nic.in, ravindrawaikar.mp@mpls.sansad.in, ashokchavan.009@sansad.nic.in, ashokchavan009@gmail.com, mp.medha@sansad.nic.in, ramdas@sansad.nic.in, priyanka.c19@sansad.nic.in, mpmilind.deora@sansad.nic.in, dr.agopchade@sansad.nic.in, cdhandore.mp@sansad.nic.in, bhagwat.karad@sansad.nic.in, fauzia.khanmp@sansad.nic.in";
-      var cc = "collector.raigad@maharashtra.gov.in, collector.ratnagiri@maharashtra.gov.in, collector.sindhudurg@maharashtra.gov.in, ceozp.thane@maharashtra.gov.in, ceozp.sindhudurg@maharashtra.gov.in, ceozp.raigad@maharashtra.gov.in, ceozp.ratnagiri@maharashtra.gov.in, secy.rb-mh@nic.in, Snehadubepandit.jansampark@gmail.com, Mumbaibjp2@gmail.com, Ashokdpatil111@gmail.com, vinodstawde@gmail.com, Hmkpindia@gmail.com, kesarkardeepak@gmail.com, Cm@maharashtra.gov.in, niranjanvdavkhare@gmail.com, dcm@maharashtra.gov.in, udaysamant11@gmail.com, ceo@mygov.in, nnr23682@gmail.com, Jayantrp@gmail.com, Kcvenugopal.org@gmail.com, Sulbhagaikwad142@gmail.com, Marathaghad@gmail.com, shekhargnikam@gmail.com, prashant.t2100@gmail.com, ravishethpatil158@gmail.com, ravindrachavan.mla@gmail.com, minister.ravindrachavan@gmail.com, ministerudaysamant@gmail.com, mlaoffice99@gmail.com, pydmlaoffice@gmail.com, kuldeep.raje2@gmail.com, rajendraa@gmail.com, edpgmr@rb.railnet.gov.in, edpg@rb.railnet.gov.in, edpm@rb.railnet.gov.in, pgcell.mumbai@gmail.com, edcc@rb.railnet.gov.in, aspg@cr.railnet.gov.in, Mchemte2@gmail.com, us-public@pmo.gov.in, dpgwr@wr.railnet.gov.in, crb@rb.railnet.gov.in, pankajamundepalwe@yahoo.in, press.secy@rb.nic.in, nitinmarathi28gmail.com, cmpro@maharashtra.gov.in, satejdpatildyp@gmail.com, devenjd007@yahoo.com";
-      
-      var bcc = "";
-      
-      const randomIndex = Math.floor(Math.random() * subjects.length);
-      const subject = subjects[randomIndex];
-      
-      var body = `Respected Member of Parliament,
+    function sendCampaignEmail(event) {
+        event.preventDefault(); // Prevents the link from navigating
+
+        const subjects = [
+            "Your Intervention Required: Voicing Konkan's Urgent Railway Needs in Parliament",
+            "Monsoon Session Agenda: Prioritizing Critical Demands for Konkan Railway",
+            "Act for Konkan: Key Railway Demands for the 2025 Monsoon Session",
+            "On Behalf of Konkan Passengers: An Urgent Appeal for This Parliamentary Session",
+            "Unlocking Konkan's Potential: Key Railway Upgrades for Your Urgent Attention",
+            "The Voice of Konkan Citizens: A Formal Request on Pressing Railway Matters",
+            "Time-Sensitive: Addressing Konkan Railway Issues in this Monsoon Session",
+            "Championing Konkan's Lifeline: A Critical Agenda for Parliament"
+        ];
+        
+        var recipients = "sandipanbhumare.mp@sansad.nic.in, sandipanbhumare@gmail.com, nageshpatil4545@gmail.com, patil.nagesh@sansad.nic.in, sc.barne@sansad.nic.in, appabarne@gmail.com, shyamkumarbarve5@gmail.com, shyam.kumarmp@mpls.sansad.in, bhaskarbhagare11.bb@gmail.com, bhaskar.bhagare@mpls.sansad.in, udayanrajebhonsle@gmail.com, udayanraje.bhonsle@sansad.nic.in, shahuchhatrapatikop@gmail.com, shahu.chhatrapatikol@sansad.nic.in, sunil.tatkare7@gmail.com, sunil.tatkare55@sansad.nic.in, anil.desai@sansad.nic.in, deshmukhsanjay400@gmail.com, sanjay.deshmukhmp@mpls.sansad.in, dhotre.anup@gmail.com, dhotre.anup@mpls.sansad.in, drshobhabachhav@gmail.com, dr.shobhataibachhav@mpls.sansad.in, email@nitingadkari.org, nitin.gadkari@nic.in, gaikwad.varsha3@sansad.nic.in, gaikwad.varsha3@gmail.com, gaikwad.varhsa3@gmail.com, piyush.goyal@gov.in, prataprao.jadhav@sansad.nic.in, jadhavprataprao25@gmail.com, prataprao.jadhav@gmail.com, jadhav.sanjay@sansad.nic.in, jadhav.sanjay@mpls.sansad.in, sanjayjadhav59@yahoo.com, drkvkale98@gmail.com, drkvkale.mp@mpls.sansad.in, mlaamarkale@gmail.com, amarsharadraokale.mp@mpls.sansad.in, kalgeshivaji@rediffmail.com, kalge.shivaji@sansad.nic.in, nr.khadase@sansad.nic.in, rakshataikhadse@gmail.com, dramolkolhe80@gmail.com, amol.kolhe@sansad.nic.in, mpnileshlanke3333@gmail.com, nilesh.lanke333@mpls.sansad.in, dhairyasheelmane@gmail.com, mp.dsmane@sansad.nic.in, nareshmhaske.mp@sansad.nic.in, nareshmhaske@gmail.com, sureshmhatre1701@gmail.com, suresh.mhatre1701@mpls.sansad.in, murlidhar.mohol@sansad.nic.in, murlidhar.mohol@gmail.com, sanjaydinapatil@rediffmail.com, sanjaydinapatil@gmail.com, sd.patil@sansad.nic.in, narayan.rane@gov.in, narayan.rane@sansad.nic.in, narayanrane52@gmail.com, narayan.rane@mpls.sansad.in, hemant.savara@sansad.nic.in, hemantsavara@yahoo.co.in, hemantsavara5@gmail.com, arvindsawantg@gmail.com, arvind.sawant@sansad.nic.in, shrikant.shinde@sansad.nic.in, shrikantshinde87@yahoo.in, supriyassule@gmail.com, supriya.sule@sansad.nic.in, supriya.sule@mpls.sansad.in, waikarravindra@gmail.com, ravindrawaikar.mp@sansad.nic.in, ravindrawaikar.mp@mpls.sansad.in, ashokchavan.009@sansad.nic.in, ashokchavan009@gmail.com, mp.medha@sansad.nic.in, ramdas@sansad.nic.in, priyanka.c19@sansad.nic.in, mpmilind.deora@sansad.nic.in, dr.agopchade@sansad.nic.in, cdhandore.mp@sansad.nic.in, bhagwat.karad@sansad.nic.in, fauzia.khanmp@sansad.nic.in";
+        var cc = "collector.raigad@maharashtra.gov.in, collector.ratnagiri@maharashtra.gov.in, collector.sindhudurg@maharashtra.gov.in, ceozp.thane@maharashtra.gov.in, ceozp.sindhudurg@maharashtra.gov.in, ceozp.raigad@maharashtra.gov.in, ceozp.ratnagiri@maharashtra.gov.in, secy.rb-mh@nic.in, Snehadubepandit.jansampark@gmail.com, Mumbaibjp2@gmail.com, Ashokdpatil111@gmail.com, vinodstawde@gmail.com, Hmkpindia@gmail.com, kesarkardeepak@gmail.com, Cm@maharashtra.gov.in, niranjanvdavkhare@gmail.com, dcm@maharashtra.gov.in, udaysamant11@gmail.com, ceo@mygov.in, nnr23682@gmail.com, Jayantrp@gmail.com, Kcvenugopal.org@gmail.com, Sulbhagaikwad142@gmail.com, Marathaghad@gmail.com, shekhargnikam@gmail.com, prashant.t2100@gmail.com, ravishethpatil158@gmail.com, ravindrachavan.mla@gmail.com, minister.ravindrachavan@gmail.com, ministerudaysamant@gmail.com, mlaoffice99@gmail.com, pydmlaoffice@gmail.com, kuldeep.raje2@gmail.com, rajendraa@gmail.com, edpgmr@rb.railnet.gov.in, edpg@rb.railnet.gov.in, edpm@rb.railnet.gov.in, pgcell.mumbai@gmail.com, edcc@rb.railnet.gov.in, aspg@cr.railnet.gov.in, Mchemte2@gmail.com, us-public@pmo.gov.in, dpgwr@wr.railnet.gov.in, crb@rb.railnet.gov.in, pankajamundepalwe@yahoo.in, press.secy@rb.nic.in, nitinmarathi28gmail.com, cmpro@maharashtra.gov.in, satejdpatildyp@gmail.com, devenjd007@yahoo.com";
+        var bcc = "";
+        
+        const randomIndex = Math.floor(Math.random() * subjects.length);
+        const subject = subjects[randomIndex];
+        var body = `Respected Member of Parliament,
 
 On behalf of passengers and citizens of Maharashtra's Konkan region, we seek your kind intervention to raise the following long-pending railway demands in the upcoming Monsoon Session of Parliament:
 
@@ -118,39 +125,44 @@ Key Demands:
 
 7. Vande Bharat – Oppose merger of Mumbai–Madgaon Vande Bharat with Mangaluru service. Instead, start a separate Mangaluru–LTT Vande Bharat with equitable halts and quotas in Maharashtra.
 
-We request your active support to pursue these demands with the Railway Ministry for the benefit of Konkan’s citizens.
+We earnestly request your active support to pursue these vital demands with the Ministry of Railways for the progress and prosperity of the citizens of Konkan. A detailed document with further information on each point, suitable for raising questions in Parliament, is attached via the link below for your reference.
+
+Reference Document: 
+
 
 Sincerely,
+Concerned Citizens and Railway Passengers
+Konkan Region, Maharashtra
 `;
-  
-      var emailLink = "mailto:" + encodeURIComponent(recipients) +
-                      "?cc=" + encodeURIComponent(cc) +
-                      "&bcc=" + encodeURIComponent(bcc) +
-                      "&subject=" + encodeURIComponent(subject) +
-                      "&body=" + encodeURIComponent(body);
-  
-      // Construct the mailto link
-      emailLink = `mailto:${encodeURIComponent(recipients)}?cc=${encodeURIComponent(cc)}&bcc=${encodeURIComponent(bcc)}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      
-      // Debugging: Log the link
-      console.log("CC:", cc);
-      console.log("Generated email link:", emailLink);
-  
-  
-    // Create and click the temporary link
-    try {
-      const tempLink = document.createElement('a');
-      tempLink.href = emailLink;  
-      document.body.appendChild(tempLink);
-      tempLink.click();
-      document.body.removeChild(tempLink);
-      console.log("Email client triggered");
-  } catch (error) {
-      console.error("Failed to trigger email client:", error);
-  }
-      // Clean up
-      document.body.removeChild(tempLink);
-  });
+
+// https://drive.google.com/file/d/1T-IdC7fDcrveqjq1w3EEMtZ3_yGuhntj/view?usp=sharing
+
+        var emailLink = "mailto:" + encodeURIComponent(recipients) +
+                        "?cc=" + encodeURIComponent(cc) +
+                        "&bcc=" + encodeURIComponent(bcc) +
+                        "&subject=" + encodeURIComponent(subject) +
+                        "&body=" + encodeURIComponent(body);
+
+        // Create and click the temporary link to open the email client
+        const tempLink = document.createElement('a');
+        tempLink.href = emailLink;
+        document.body.appendChild(tempLink);
+        try {
+            tempLink.click();
+        } catch (error) {
+            console.error("Failed to trigger email client:", error);
+        } finally {
+            document.body.removeChild(tempLink);
+        }
+    }
+
+    // Select all buttons that trigger the email campaign (the original and the new floating one)
+    const emailCampaignButtons = document.querySelectorAll('.email-button, #floating-email-btn');
+
+    // Attach the same click event listener to all of them
+    emailCampaignButtons.forEach(button => {
+        button.addEventListener('click', sendCampaignEmail);
+    });
   
 
 /*gallery section */

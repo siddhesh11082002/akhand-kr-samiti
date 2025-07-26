@@ -643,3 +643,40 @@ body {
 .email-button:focus {
     outline: 2px solid var(--accent-color); /* Outline on focus */
 }
+
+/* Floating Email Button Styles */
+#floating-email-btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--accent-color); /* Uses your existing red color */
+    color: var(--primary-bg); /* White icon */
+    border-radius: 50%; /* Makes it circular */
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+#floating-email-btn:hover {
+    background-color: var(--hover-bg); /* Darker red on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Mobile View Optimization */
+@media (max-width: 768px) {
+    #floating-email-btn {
+        width: 55px;
+        height: 55px;
+        right: 20px;
+        bottom: 20px;
+        font-size: 22px;
+    }
+}
