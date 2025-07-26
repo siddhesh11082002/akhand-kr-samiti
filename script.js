@@ -63,19 +63,13 @@ setInterval(changeBackgroundImage, 4000);
 
   // Email Button
 const subjects = [
-    // Direct & Action-Oriented
-    "Your Intervention Required: Voicing Konkan's Urgent Railway Needs in Parliament",
-    "Monsoon Session Agenda: Prioritizing Critical Demands for Konkan Railway",
-    "Act for Konkan: Key Railway Demands for the 2025 Monsoon Session",
-
-    // Constituent & Benefit-Focused
-    "On Behalf of Konkan Passengers: An Urgent Appeal for This Parliamentary Session",
-    "Unlocking Konkan's Potential: Key Railway Upgrades for Your Urgent Attention",
-    "The Voice of Konkan Citizens: A Formal Request on Pressing Railway Matters",
-
-    // Concise & Urgent
-    "Time-Sensitive: Addressing Konkan Railway Issues in this Monsoon Session",
-    "Championing Konkan's Lifeline: A Critical Agenda for Parliament"
+        "Action Required: Key Konkan Railway & NH-66 Demands for Monsoon Session",
+        "On Behalf of Konkan Citizens: An Urgent Appeal on Railway & Highway Issues",
+        "Unlocking Konkan's Future: Critical Railway & Infrastructure Demands for Parliament",
+        "Following Up on Konkan Railway Merger & National Highway 66 Delays",
+        "Urgent Priorities for Konkan Region: Awaiting Your Support in the Monsoon Session",
+        "Voice of Konkan: Request for Intervention on Railway Demands",
+        "Agenda for Progress: Raising Konkan's Railway Needs in Parliament"
 ];
   
   
@@ -96,7 +90,7 @@ const subjects = [
         ];
         
         var recipients = "sandipanbhumare.mp@sansad.nic.in, sandipanbhumare@gmail.com, nageshpatil4545@gmail.com, patil.nagesh@sansad.nic.in, sc.barne@sansad.nic.in, appabarne@gmail.com, shyamkumarbarve5@gmail.com, shyam.kumarmp@mpls.sansad.in, bhaskarbhagare11.bb@gmail.com, bhaskar.bhagare@mpls.sansad.in, udayanrajebhonsle@gmail.com, udayanraje.bhonsle@sansad.nic.in, shahuchhatrapatikop@gmail.com, shahu.chhatrapatikol@sansad.nic.in, sunil.tatkare7@gmail.com, sunil.tatkare55@sansad.nic.in, anil.desai@sansad.nic.in, deshmukhsanjay400@gmail.com, sanjay.deshmukhmp@mpls.sansad.in, dhotre.anup@gmail.com, dhotre.anup@mpls.sansad.in, drshobhabachhav@gmail.com, dr.shobhataibachhav@mpls.sansad.in, email@nitingadkari.org, nitin.gadkari@nic.in, gaikwad.varsha3@sansad.nic.in, gaikwad.varsha3@gmail.com, gaikwad.varhsa3@gmail.com, piyush.goyal@gov.in, prataprao.jadhav@sansad.nic.in, jadhavprataprao25@gmail.com, prataprao.jadhav@gmail.com, jadhav.sanjay@sansad.nic.in, jadhav.sanjay@mpls.sansad.in, sanjayjadhav59@yahoo.com, drkvkale98@gmail.com, drkvkale.mp@mpls.sansad.in, mlaamarkale@gmail.com, amarsharadraokale.mp@mpls.sansad.in, kalgeshivaji@rediffmail.com, kalge.shivaji@sansad.nic.in, nr.khadase@sansad.nic.in, rakshataikhadse@gmail.com, dramolkolhe80@gmail.com, amol.kolhe@sansad.nic.in, mpnileshlanke3333@gmail.com, nilesh.lanke333@mpls.sansad.in, dhairyasheelmane@gmail.com, mp.dsmane@sansad.nic.in, nareshmhaske.mp@sansad.nic.in, nareshmhaske@gmail.com, sureshmhatre1701@gmail.com, suresh.mhatre1701@mpls.sansad.in, murlidhar.mohol@sansad.nic.in, murlidhar.mohol@gmail.com, sanjaydinapatil@rediffmail.com, sanjaydinapatil@gmail.com, sd.patil@sansad.nic.in, narayan.rane@gov.in, narayan.rane@sansad.nic.in, narayanrane52@gmail.com, narayan.rane@mpls.sansad.in, hemant.savara@sansad.nic.in, hemantsavara@yahoo.co.in, hemantsavara5@gmail.com, arvindsawantg@gmail.com, arvind.sawant@sansad.nic.in, shrikant.shinde@sansad.nic.in, shrikantshinde87@yahoo.in, supriyassule@gmail.com, supriya.sule@sansad.nic.in, supriya.sule@mpls.sansad.in, waikarravindra@gmail.com, ravindrawaikar.mp@sansad.nic.in, ravindrawaikar.mp@mpls.sansad.in, ashokchavan.009@sansad.nic.in, ashokchavan009@gmail.com, mp.medha@sansad.nic.in, ramdas@sansad.nic.in, priyanka.c19@sansad.nic.in, mpmilind.deora@sansad.nic.in, dr.agopchade@sansad.nic.in, cdhandore.mp@sansad.nic.in, bhagwat.karad@sansad.nic.in, fauzia.khanmp@sansad.nic.in";
-        var cc = "collector.raigad@maharashtra.gov.in, collector.ratnagiri@maharashtra.gov.in, collector.sindhudurg@maharashtra.gov.in, ceozp.thane@maharashtra.gov.in, ceozp.sindhudurg@maharashtra.gov.in, ceozp.raigad@maharashtra.gov.in, ceozp.ratnagiri@maharashtra.gov.in, secy.rb-mh@nic.in, Snehadubepandit.jansampark@gmail.com, Mumbaibjp2@gmail.com, Ashokdpatil111@gmail.com, vinodstawde@gmail.com, Hmkpindia@gmail.com, kesarkardeepak@gmail.com, Cm@maharashtra.gov.in, niranjanvdavkhare@gmail.com, dcm@maharashtra.gov.in, udaysamant11@gmail.com, ceo@mygov.in, nnr23682@gmail.com, Jayantrp@gmail.com, Kcvenugopal.org@gmail.com, Sulbhagaikwad142@gmail.com, Marathaghad@gmail.com, shekhargnikam@gmail.com, prashant.t2100@gmail.com, ravishethpatil158@gmail.com, ravindrachavan.mla@gmail.com, minister.ravindrachavan@gmail.com, ministerudaysamant@gmail.com, mlaoffice99@gmail.com, pydmlaoffice@gmail.com, kuldeep.raje2@gmail.com, rajendraa@gmail.com, edpgmr@rb.railnet.gov.in, edpg@rb.railnet.gov.in, edpm@rb.railnet.gov.in, pgcell.mumbai@gmail.com, edcc@rb.railnet.gov.in, aspg@cr.railnet.gov.in, Mchemte2@gmail.com, us-public@pmo.gov.in, dpgwr@wr.railnet.gov.in, crb@rb.railnet.gov.in, pankajamundepalwe@yahoo.in, press.secy@rb.nic.in, nitinmarathi28gmail.com, cmpro@maharashtra.gov.in, satejdpatildyp@gmail.com, devenjd007@yahoo.com";
+        var cc = "Snehadubepandit.jansampark@gmail.com,Mumbaibjp2@gmail.com,Ashokdpatil111@gmail.com,vinodstawde@gmail.com,Hmkpindia@gmail.com,kesarkardeepak@gmail.com,Cm@maharashtra.gov.in,niranjanvdavkhare@gmail.com,dcm@maharashtra.gov.in,udaysamant11@gmail.com,ceo@mygov.in,nnr23682@gmail.com,Jayantrp@gmail.com,Kcvenugopal.org@gmail.com,Bharatsheth.gogavle@gmail.com,Office@mahacongress.com,Sulbhagaikwad142@gmail.com,Marathaghad@gmail.com,shekhargnikam@gmail.com,prashant.t2100@gmail.com,ravishethpatil158@gmail.com,ravindrachavan.mla@gmail.com,minister.ravindrachavan@gmail.com,ministerudaysamant@gmail.com,mlaoffice99@gmail.com,pydmlaoffice@gmail.com,kuldeep.raje2@gmail.com,rajendraa@gmail.com,edpgmr@rb.railnet.gov.in,edpg@rb.railnet.gov.in,edpm@rb.railnet.gov.in,pgcell.mumbai@gmail.com,edcc@rb.railnet.gov.in,aspg@cr.railnet.gov.in,Mchemte2@gmail.com,us-public@pmo.gov.in,dpgwr@wr.railnet.gov.in,crb@rb.railnet.gov.in,pankajamundepalwe@yahoo.in,press.secy@rb.nic.in,nitinmarathi28@gmail.com,cmpro@maharashtra.gov.in,satejdpatildyp@gmail.com,devenjd007@yahoo.com,sanjaykelkar09@gmail.com";
         var bcc = "";
         
         const randomIndex = Math.floor(Math.random() * subjects.length);
@@ -111,27 +105,26 @@ Key Demands:
 
 2. Sawantwadi Terminus & Coaching Depot – Complete pending work at Sawantwadi Road station 
 
-3. Mumbai–Madgaon–Mangaluru Route – Include in High-Density Network, begin full route doubling, and increase speed to 160 kmph.
+3. Mumbai–Madgaon–Mangaluru Route – Include in High-Density Network, begin full route doubling, and increase speed to 160 kmph..
 
-4. Fare Rationalisation – Remove the 40% passenger fare and 50% goods surcharge over Konkan Railway.
+4. Removal of inflated distances over Konkan Railway – Remove the 40% passenger fare and 50% goods surcharge over Konkan Railway.
 
-5. Amrit Bharat Station Scheme – Include Konkan Railway stations in Maharashtra.
+5. Amrit Bharat Station Scheme for Konkan – Include Konkan Railway and Central Railway stations like Pen, Roha, Mangaon, Veer, Khed, Chiplun, Sangameshwar Road, Ratnagiri, Vilavade, Rajapur Road, Vaibhavwadi Road, Kankavali, Sindhudurg, Kudal, Sawantwadi Road in Maharashtra.
 
 6. Train Extensions & New Services:
 - Extend 17613/17614 Nanded–Panvel Express to Sawantwadi with halts at major Konkan stations.
 - Start a new daytime Mumbai CSMT–Chiplun train with halts at local Konkan stations.
 - Restore 50103/50104 Ratnagiri–Diva Fast Passenger to Dadar and augment to 22 LHB coaches.
-- Extend 10105/10106 Sawantwadi–Diva Express to CSMT/Dadar/LTT/Thane with 22 LHB coaches and 8 unreserved coaches.
+- Extend 10105/10106 Sawantwadi–Diva Express to CSMT/Dadar/LTT/Thane with 22 LHB coaches and 8 unreserved coaches for Diva in 10105.
 
-7. Vande Bharat – Oppose merger of Mumbai–Madgaon Vande Bharat with Mangaluru service. Instead, start a separate Mangaluru–LTT Vande Bharat with equitable halts and quotas in Maharashtra.
+7. National Highway 66 Delay – Seek clarification from Shri Nitin Gadkari on delay beyond the June 2025 deadline; request concrete timelines for Indapur Bypass, Mangaon Bypass, and bridges.
 
-We earnestly request your active support to pursue these vital demands with the Ministry of Railways for the progress and prosperity of the citizens of Konkan. A detailed document with further information on each point, suitable for raising questions in Parliament, is attached via the link below for your reference.
+We request your active support to pursue these demands with the Railway Ministry for the benefit of Konkan’s citizens.
 
-Reference Document: 
-
+For a detailed overview, please see the document here: https://drive.google.com/file/d/1aKoLe8yO5fCYhq09tBPdCfrhF12zn9Z8/view?usp=sharing 
 
 Sincerely,
-Concerned Citizens and Railway Passengers
+Concerned Citizen and Railway Passenger
 Konkan Region, Maharashtra
 `;
 
