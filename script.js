@@ -59,21 +59,7 @@ setInterval(changeBackgroundImage, 4000);
 //     event.preventDefault();
 //     window.open('https://docs.google.com/forms/d/e1FAIpQLSfmQHHjx6Icw0Qja1aa4zBmD9UIYDTmEm9H0cYzBz6VFkFnRA/viewform?usp=sf_link', '_blank'); 
 // });
-
-
-  // Email Button
-const subjects = [
-        "Action Required: Key Konkan Railway & NH-66 Demands for Monsoon Session",
-        "On Behalf of Konkan Citizens: An Urgent Appeal on Railway & Highway Issues",
-        "Unlocking Konkan's Future: Critical Railway & Infrastructure Demands for Parliament",
-        "Following Up on Konkan Railway Merger & National Highway 66 Delays",
-        "Urgent Priorities for Konkan Region: Awaiting Your Support in the Monsoon Session",
-        "Voice of Konkan: Request for Intervention on Railway Demands",
-        "Agenda for Progress: Raising Konkan's Railway Needs in Parliament"
-];
   
-  
-
   // Email Button
     function sendCampaignEmail(event) {
         event.preventDefault(); // Prevents the link from navigating
@@ -154,7 +140,7 @@ Konkan Region, Maharashtra`;
         var emailLink = "mailto:" + encodeURIComponent(recipients) +
                         "?cc=" + encodeURIComponent(cc) +
                         "&bcc=" + encodeURIComponent(bcc) +
-                        "&subject=" + encodeURIComponent(subject) +
+                        "&subject=" + encodeURIComponent(randomSubject) +
                         "&body=" + encodeURIComponent(body);
 
         // Create and click the temporary link to open the email client
