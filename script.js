@@ -105,27 +105,31 @@ setInterval(changeBackgroundImage, 4000);
 
 I am writing to you today as a concerned resident of the Konkan region and a regular railway commuter.
 
-On behalf of many others like me, I seek your kind intervention to raise the following long-pending railway demands in the upcoming Monsoon Session of Parliament:
+On behalf of many others like me, I seek your kind intervention to raise the following long-pending railway demands in the upcoming Winter Session of Parliament:
 
 Key Demands:
 
-1. Merge Konkan Railway with Indian Railways – Integrate Ratnagiri region (Roha–Madure) into Central Railway and Karwar region (Pernem–Thokur) into South Western Railway, keeping KRCL as a construction arm. Kindly follow up on the Hon’ble Maharashtra CM’s letter (May 2025) on this.
+Merge Konkan Railway with Indian Railways – Integrate Ratnagiri region (Roha–Madure) into Central Railway and Karwar region (Pernem–Thokur) into South Western Railway, keeping KRCL as a construction arm. Kindly follow up on the Hon’ble Maharashtra CM’s letter (May 2025) on this.
 
-2. Sawantwadi Terminus & Coaching Depot – Complete pending work at Sawantwadi Road station.
+Sawantwadi Terminus & Coaching Depot – Complete pending work at Sawantwadi Road station.
 
-3. Mumbai–Madgaon–Mangaluru Route – Include in High-Density Network, begin full route doubling, and increase speed to 160 kmph.
+Mumbai–Madgaon–Mangaluru Route – Include in High-Density Network, begin full route doubling, and increase speed to 160 kmph.
 
-4. Removal of inflated distances over Konkan Railway – Remove the 40% passenger fare and 50% goods surcharge over Konkan Railway.
+Removal of inflated distances over Konkan Railway – Remove the 40% passenger fare and 50% goods surcharge over Konkan Railway.
 
-5. Amrit Bharat Station Scheme for Konkan – Include Konkan Railway and Central Railway stations like Pen, Roha, Mangaon, Veer, Khed, Chiplun, Sangameshwar Road, Ratnagiri, Vilavade, Rajapur Road, Vaibhavwadi Road, Kankavali, Sindhudurg, Kudal, Sawantwadi Road in Maharashtra.
+Amrit Bharat Station Scheme for Konkan – Include Konkan Railway and Central Railway stations like Pen, Roha, Mangaon, Veer, Khed, Chiplun, Sangameshwar Road, Ratnagiri, Vilavade, Rajapur Road, Vaibhavwadi Road, Kankavali, Sindhudurg, Kudal, Sawantwadi Road in Maharashtra.
 
-6. Train Extensions & New Services:
-- Extend 17613/17614 Nanded–Panvel Express to Sawantwadi with halts at major Konkan stations.
-- Start a new daytime Mumbai CSMT–Chiplun train with halts at local Konkan stations.
-- Restore 50103/50104 Ratnagiri–Diva Fast Passenger to Dadar and augment to 22 LHB coaches.
-- Extend 10105/10106 Sawantwadi–Diva Express to CSMT/Dadar/LTT/Thane with 22 LHB coaches and 8 unreserved coaches for Diva in 10105.
+Train Extensions & New Services:
 
-7. National Highway 66 Delay – Seek clarification from Shri Nitin Gadkari on delay beyond the June 2025 deadline; request concrete timelines for Indapur Bypass, Mangaon Bypass, and bridges.
+Extend 17613/17614 Nanded–Panvel Express to Sawantwadi with halts at major Konkan stations.
+
+Start a new daytime Mumbai CSMT–Chiplun train with halts at local Konkan stations.
+
+Restore 50103/50104 Ratnagiri–Diva Fast Passenger to Dadar and augment to 22 LHB coaches.
+
+Extend 10105/10106 Sawantwadi–Diva Express to CSMT/Dadar/LTT/Thane with 22 LHB coaches and 8 unreserved coaches for Diva in 10105.
+
+National Highway 66 Delay – Seek clarification from Shri Nitin Gadkari on delay beyond the June 2025 deadline; request concrete timelines for Indapur Bypass, Mangaon Bypass, and bridges.
 
 ${randomClosing}
 
@@ -133,7 +137,7 @@ For a detailed overview, please see the document here: ${pdfLink}
 
 Sincerely,
 A Concerned Citizen and Railway Passenger
-Konkan Region, Maharashtra`;
+Konkan Region, Maharashtra`
 
 // https://drive.google.com/file/d/1T-IdC7fDcrveqjq1w3EEMtZ3_yGuhntj/view?usp=sharing
 
